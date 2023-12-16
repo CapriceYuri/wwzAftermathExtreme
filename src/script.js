@@ -1,3 +1,6 @@
+// Import Data
+import { ny1_data } from "./data/data_ny.js";
+
 // All Page Declaracation & Radio Btn
 const homePage = document.querySelector('#boxHome');
 const nyPage = document.querySelector('.boxNY')
@@ -18,6 +21,8 @@ const marBtn = document.querySelector('#btnMar')
 const romeBtn = document.querySelector('#btnR')
 const kamBtn = document.querySelector('#btnK')
 const phoBtn = document.querySelector('#btnP')
+
+const ny1 = document.querySelector('.ny1');
 
 // Page Event Listeners
 homeBtn.addEventListener('click', () => {
@@ -199,3 +204,32 @@ phoBtn.addEventListener('click', () => {
     kamBtn.checked = false;
     phoPage.style.display = 'block';
 })
+
+// Adding Table Data
+function addRecord(obj, location) {
+    const tempRow = document.createElement("tr");
+    tempRow.classList.add("text-center", "align-middle",)
+
+    const player = document.createElement("td");
+    player.textContent = obj.player;
+    tempRow.appendChild(player);
+
+    const sr = document.createElement("td");
+    let display = `${Math.floor(obj.time / 60)}m ${obj.time % 60}s`
+    sr.textContent = display;
+    tempRow.appendChild(sr);
+
+    const src = document.createElement("td");
+    const link = document.createElement("a");
+    link.textContent = "Full"
+    link.href = obj.src;
+    link.target = "_blank";
+    src.appendChild(link)
+    tempRow.appendChild(src)
+
+    location.appendChild(tempRow);
+}
+
+for (let r = 0; r < ny1_data.length; r++) {
+    addRecord(ny1_data[r], ny1)
+}

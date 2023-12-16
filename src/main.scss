@@ -36,7 +36,8 @@ body {
     width: 100%;
 }
 
-#tableHome {
+#tableHome,
+.boxNY {
     td {
         background-color: transparent;
     }
@@ -82,4 +83,9 @@ body {
 
 .boxP {
     display: none;
+}
+
+// Other Misc
+a {
+    text-decoration: none;
 }

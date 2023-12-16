@@ -35,10 +35,12 @@ body {
   width: 100%;
 }
 
-#tableHome td {
+#tableHome td,
+.boxNY td {
   background-color: transparent;
 }
-#tableHome th {
+#tableHome th,
+.boxNY th {
   background-color: transparent;
 }
 
@@ -76,4 +78,8 @@ body {
 
 .boxP {
   display: none;
+}
+
+a {
+  text-decoration: none;
 }
