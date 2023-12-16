@@ -8,11 +8,6 @@ import { rom1_data, rom2_data, rom3_data } from "./data/data_rome.js";
 import { kam1_data, kam2_data, kam3_data } from "./data/data_kam.js";
 import { pho1_data, pho2_data, pho3_data } from "./data/data_pho.js";
 
-
-
-
-
-
 // All Page Declaracation & Radio Btn
 const homePage = document.querySelector('#boxHome');
 const nyPage = document.querySelector('.boxNY')
@@ -45,6 +40,8 @@ const pho = document.querySelectorAll('.pho');
 
 const topPlayer = document.querySelectorAll('.topPlayer')
 const topTime = document.querySelectorAll('.topTime')
+
+const leaderboard = [ny1_data, ny2_data, ny3_data, ny4_data, jer1_data, jer2_data, jer3_data, mos1_data, mos2_data, mos3_data, mos4_data, tok1_data, tok2_data, tok3_data, mar1_data, mar2_data, mar3_data, rom1_data, rom2_data, rom3_data, kam1_data, kam2_data, kam3_data, pho1_data, pho2_data, pho3_data]
 
 
 // Page Event Listeners
@@ -233,6 +230,44 @@ function addRecord(obj, location) {
     const tempRow = document.createElement("tr");
     tempRow.classList.add("text-center", "align-middle",)
 
+    const map = document.createElement("td");
+    let group = undefined;
+    let whitespace = undefined;
+    map.textContent = "";
+    tempRow.appendChild(map);
+    if (obj.medal !== undefined) {
+        if (obj.medal === "First") {
+            const medalGold = document.createElement("img");
+            medalGold.setAttribute("src", "images/firstPlace.png");
+            map.appendChild(medalGold)
+        }
+        if (obj.medal === "Second") {
+            const medalGold = document.createElement("img");
+            medalGold.setAttribute("src", "images/secondPlace.png");
+            map.appendChild(medalGold)
+        }
+        if (obj.medal === "Third") {
+            const medalGold = document.createElement("img");
+            medalGold.setAttribute("src", "images/thirdPlace.png");
+            map.appendChild(medalGold)
+        }
+    }
+    if (obj.team === "solo") {
+        group = document.createElement("i");
+        whitespace = document.createElement("span")
+        whitespace.textContent = " "
+        map.appendChild(whitespace)
+        group.classList.add('fa-solid', 'fa-person-rifle', 'text-danger');
+        map.appendChild(group);
+    } else {
+        group = document.createElement("i");
+        whitespace = document.createElement("span")
+        whitespace.textContent = " "
+        map.appendChild(whitespace)
+        group.classList.add('fa-solid', 'fa-people-group', 'text-success');
+        map.appendChild(group);
+    }
+
     const player = document.createElement("td");
     player.textContent = obj.player;
     tempRow.appendChild(player);
@@ -256,6 +291,40 @@ function addRecord(obj, location) {
 // SORTING THE DATA
 function sortDataOrder(a, b) {
     return a.time - b.time;
+}
+function sortingNum(a, b) {
+    return a - b;
+}
+
+// Check Standind
+function checkStanding(obj) {
+
+    let tempArr = [];
+
+    for (let i = 0; i < obj.length; i++) {
+        tempArr.push(obj[i].time);
+    }
+    tempArr.sort(sortingNum)
+
+    const finalizedfirst = tempArr[0];
+    const finalizedsecond = tempArr[1];
+    const finalizedthird = tempArr[2];
+
+    for (let j = 0; j < obj.length; j++) {
+        if (obj[j].time === finalizedfirst) {
+            obj[j].medal = 'First';
+        }
+        if (obj[j].time === finalizedsecond) {
+            obj[j].medal = 'Second';
+        }
+        if (obj[j].time === finalizedthird) {
+            obj[j].medal = 'Third';
+        }
+    }
+}
+
+for (let q = 0; q < leaderboard.length; q++) {
+    checkStanding(leaderboard[q])
 }
 
 // APPEND TO CORRESPONDING TABLE
@@ -301,7 +370,6 @@ appendData(pho2_data, pho[1])
 appendData(pho3_data, pho[2])
 
 // LEADERBOARD ENTRY
-const leaderboard = [ny1_data, ny2_data, ny3_data, ny4_data, jer1_data, jer2_data, jer3_data, mos1_data, mos2_data, mos3_data, mos4_data, tok1_data, tok2_data, tok3_data, mar1_data, mar2_data, mar3_data, rom1_data, rom2_data, rom3_data, kam1_data, kam2_data, kam3_data, pho1_data, pho2_data, pho3_data];
 
 function appendLeaderBoard(data) {
     for (let x = 0; x < data.length; x++) {
