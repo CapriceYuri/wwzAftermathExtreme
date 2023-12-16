@@ -36,11 +36,25 @@ body {
 }
 
 #tableHome td,
-.boxNY td {
+.boxNY td,
+.boxJ td,
+.boxMos td,
+.boxT td,
+.boxMar td,
+.boxR td,
+.boxK td,
+.boxP td {
   background-color: transparent;
 }
 #tableHome th,
-.boxNY th {
+.boxNY th,
+.boxJ th,
+.boxMos th,
+.boxT th,
+.boxMar th,
+.boxR th,
+.boxK th,
+.boxP th {
   background-color: transparent;
 }
 
