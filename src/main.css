@@ -2,9 +2,44 @@ body {
   background-color: #1e1e1e;
 }
 
+#boxHome tbody .orange {
+  color: #ff9e74;
+}
+
+#boxHome tbody .yellow {
+  color: #ffbe00;
+}
+
+#boxHome tbody .lightblue {
+  color: #74bec1;
+}
+
+#boxHome tbody .lightpurple {
+  color: #b485d8;
+}
+
+#boxHome tbody .lightgreen {
+  color: #28cc9e;
+}
+
+#boxHome tbody .grey {
+  color: #748b9c;
+}
+
+#boxHome tbody .peach {
+  color: #f1684e;
+}
+
 .table-img {
   max-height: 400px;
   width: 100%;
+}
+
+#tableHome td {
+  background-color: transparent;
+}
+#tableHome th {
+  background-color: transparent;
 }
 
 .boxHome {

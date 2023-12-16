@@ -1,5 +1,5 @@
 // All Page Declaracation & Radio Btn
-const homePage = document.querySelector('.boxHome');
+const homePage = document.querySelector('#boxHome');
 const nyPage = document.querySelector('.boxNY')
 const jerPage = document.querySelector('.boxJ')
 const mosPage = document.querySelector('.boxMos')
