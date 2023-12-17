@@ -98,6 +98,35 @@ a {
   text-decoration: none;
 }
 
+.admin-color,
+.admin-border,
+.admin-name {
+  transition: 500ms ease-in-out;
+}
+
+.blue {
+  color: #007FFF;
+}
+
+.bg5,
+.bg3,
+.kokak {
+  background-position: center;
+  background-size: cover;
+}
+
+.kokak {
+  background-image: url("../images/kokakbg.png");
+}
+
+.bg5 {
+  background-image: url("../images/bg5.png");
+}
+
+.bg3 {
+  background-image: url("../images/bg3.png");
+}
+
 .vibrate {
   animation: vibrate-1 0.3s linear infinite;
 }

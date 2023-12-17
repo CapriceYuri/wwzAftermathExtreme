@@ -382,3 +382,21 @@ function appendLeaderBoard(data) {
 }
 appendLeaderBoard(leaderboard);
 
+// ADMIN COLORS
+const adminColor = document.querySelector('.admin-color');
+const adminBorder = document.querySelector('.admin-border');
+const adminName = document.querySelector('.admin-name');
+
+
+function changeColor() {
+    let colorR = Math.ceil(Math.random() * 255)
+    let colorG = Math.ceil(Math.random() * 255)
+    let colorB = Math.ceil(Math.random() * 255)
+    let color = `rgb(${colorR},${colorG},${colorB})`
+    adminColor.style.color = color;
+    adminBorder.style.borderColor = color;
+    adminName.style.color = color;
+    console.log(color)
+}
+
+setInterval(changeColor, 500)
