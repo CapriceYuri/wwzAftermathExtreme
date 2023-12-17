@@ -9,6 +9,12 @@ const mar1_data = [
 
 const mar2_data = [
     {
+        player: 'xD3viLz',
+        time: 365,
+        src: 'https://www.youtube.com/watch?v=mnHS_YM1erU',
+        team: 'solo'
+    },
+    {
         player: '玉米大战僵尸',
         time: 430,
         src: 'https://www.bilibili.com/video/BV1fF411d7Vz/?spm_id_from=333.788',

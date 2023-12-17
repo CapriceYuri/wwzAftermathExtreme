@@ -27,6 +27,11 @@ const mos3_data = [
 
 const mos4_data = [
     {
+        player: 'xD3viLz',
+        time: 555,
+        src: 'https://www.youtube.com/watch?v=WKxiUogZsMs',
+    },
+    {
         player: '玉米大战僵尸',
         time: 814,
         src: 'https://www.bilibili.com/video/BV1W94y1i7x7/?spm_id_from=333.788',

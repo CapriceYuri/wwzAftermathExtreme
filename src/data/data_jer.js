@@ -9,6 +9,11 @@ const jer1_data = [
 
 const jer2_data = [
     {
+        player: 'xD3viLz',
+        time: 450,
+        src: 'https://www.youtube.com/watch?v=X9FHgaE6Bvc',
+    },
+    {
         player: '玉米大战僵尸',
         time: 599,
         src: 'https://www.bilibili.com/video/BV1JM4y177Mw/?spm_id_from=333.788',
