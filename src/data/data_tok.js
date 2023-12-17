@@ -6,7 +6,7 @@ const tok1_data = [
         team: 'solo'
     },
     {
-        player: 'SiberianPsych0',
+        player: 'Tokyo Speedrun',
         time: 611,
         src: 'https://www.youtube.com/watch?v=AiV7wZiSWa0&t=1055s',
     },
@@ -26,7 +26,7 @@ const tok2_data = [
         team: 'solo'
     },
     {
-        player: 'SiberianPsych0',
+        player: 'Tokyo Speedrun',
         time: 555,
         src: 'https://www.youtube.com/watch?v=AiV7wZiSWa0&t=1055s',
     },
@@ -46,7 +46,7 @@ const tok3_data = [
         team: 'solo'
     },
     {
-        player: 'SiberianPsych0',
+        player: 'Tokyo Speedrun',
         time: 556,
         src: 'https://www.youtube.com/watch?v=AiV7wZiSWa0&t=1055s',
     },
