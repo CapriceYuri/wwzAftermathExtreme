@@ -1,40 +1,29 @@
 const rom1_data = [
     {
-        player: 'BOT 1',
-        time: 610,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 814,
+        src: 'https://www.bilibili.com/video/BV1zz4y177u5/?spm_id_from=333.788',
+        team: 'solo'
     },
-    {
-        player: 'BOT 2',
-        time: 350,
-        src: 'www.youtube.com'
-    }
 ]
 
 const rom2_data = [
     {
-        player: 'BOT 1',
-        time: 400,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 1088,
+        src: 'https://www.bilibili.com/video/BV1yV411K7Ho/?spm_id_from=333.788',
+        team: 'solo'
     },
-    {
-        player: 'BOT 2',
-        time: 500,
-        src: 'www.youtube.com'
-    }
 ]
 
 const rom3_data = [
     {
-        player: 'BOT 1',
-        time: 300,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 709,
+        src: 'https://www.bilibili.com/video/BV1iz4y177WS/?spm_id_from=333.788',
+        team: 'solo'
     },
-    {
-        player: 'BOT 2',
-        time: 600,
-        src: 'www.youtube.com'
-    }
+
 ]
 
 export { rom1_data, rom2_data, rom3_data }

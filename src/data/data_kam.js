@@ -1,40 +1,28 @@
 const kam1_data = [
     {
-        player: 'BOT 1',
-        time: 610,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 1020,
+        src: 'https://www.bilibili.com/video/BV1Dk4y157Jr/?spm_id_from=333.788',
+        team: 'solo'
     },
-    {
-        player: 'BOT 2',
-        time: 350,
-        src: 'www.youtube.com'
-    }
 ]
 
 const kam2_data = [
     {
-        player: 'BOT 1',
-        time: 400,
-        src: 'www.youtube.com'
-    },
-    {
-        player: 'BOT 2',
-        time: 500,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 1077,
+        src: 'https://www.bilibili.com/video/BV1iu411V7rD/?spm_id_from=333.788',
+        team: 'solo'
     }
 ]
 
 const kam3_data = [
     {
-        player: 'BOT 1',
-        time: 300,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 1129,
+        src: 'https://www.bilibili.com/video/BV1LF411X7AG/?spm_id_from=333.788',
+        team: 'solo'
     },
-    {
-        player: 'BOT 2',
-        time: 600,
-        src: 'www.youtube.com'
-    }
 ]
 
 export { kam1_data, kam2_data, kam3_data }

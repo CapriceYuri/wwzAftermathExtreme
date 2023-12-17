@@ -1,39 +1,27 @@
 const jer1_data = [
     {
-        player: 'BOT 1',
-        time: 610,
-        src: 'www.youtube.com'
-    },
-    {
-        player: 'BOT 2',
-        time: 350,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 845,
+        src: 'https://www.bilibili.com/video/BV14j411o7Lm/?spm_id_from=333.788',
+        team: 'solo'
     }
 ]
 
 const jer2_data = [
     {
-        player: 'BOT 1',
-        time: 400,
-        src: 'www.youtube.com'
-    },
-    {
-        player: 'BOT 2',
-        time: 500,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 599,
+        src: 'https://www.bilibili.com/video/BV1JM4y177Mw/?spm_id_from=333.788',
+        team: 'solo'
     }
 ]
 
 const jer3_data = [
     {
-        player: 'BOT 1',
-        time: 300,
-        src: 'www.youtube.com'
-    },
-    {
-        player: 'BOT 2',
-        time: 600,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 900,
+        src: 'https://www.bilibili.com/video/BV14u411L7mn/?spm_id_from=333.788',
+        team: 'solo'
     }
 ]
 

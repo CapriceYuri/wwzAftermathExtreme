@@ -1,84 +1,36 @@
 const ny1_data = [
     {
-        player: 'BOT 1',
-        time: 610,
-        src: 'www.youtube.com',
-        team: "solo",
+        player: '玉米大战僵尸',
+        time: 633,
+        src: 'https://www.bilibili.com/video/BV1gX4y1W7rr/?spm_id_from=333.788',
+        team: 'solo'
     },
-    {
-        player: 'BOT 2',
-        time: 350,
-        src: 'www.youtube.com',
-        team: "solo",
-    },
-    {
-        player: 'BOT PRO',
-        time: 122,
-        src: 'www.youtube.com',
-        team: "solo",
-    },
-    {
-        player: 'BOT NEW',
-        time: 1200,
-        src: 'www.youtube.com',
-        team: "solo",
-    }
 ]
 
 const ny2_data = [
     {
-        player: 'BOT PRO2',
-        time: 444,
-        src: 'www.youtube.com',
-        team: "solo",
-    },
-    {
-        player: 'BOT 2',
-        time: 500,
-        src: 'www.youtube.com',
-        team: "solo",
+        player: '玉米大战僵尸',
+        time: 741,
+        src: 'https://www.bilibili.com/video/BV1FV411M7Kj/?spm_id_from=333.788',
+        team: 'solo'
     }
 ]
 
 const ny3_data = [
     {
-        player: 'BOT 23',
-        time: 580,
-        src: 'www.youtube.com',
-        team: "solo",
-    },
-    {
-        player: 'BOT PRO3',
-        time: 301,
-        src: 'www.youtube.com',
-        team: "solo",
-    },
-    {
-        player: 'BOT 2',
-        time: 600,
-        src: 'www.youtube.com',
-        team: "solo",
+        player: '玉米大战僵尸',
+        time: 628,
+        src: 'https://www.bilibili.com/video/BV16X4y1v76L/?spm_id_from=333.788',
+        team: 'solo'
     }
 ]
 
 const ny4_data = [
     {
-        player: 'BOT PRO4',
-        time: 450,
-        src: 'www.youtube.com',
-        team: "solo",
-    },
-    {
-        player: 'BOT 23',
-        time: 165,
-        src: 'www.youtube.com',
-        team: "solo",
-    },
-    {
-        player: 'BOT 2',
-        time: 900,
-        src: 'www.youtube.com',
-        team: "solo",
+        player: '玉米大战僵尸',
+        time: 657,
+        src: 'https://www.bilibili.com/video/BV1FV411T7JF/?spm_id_from=333.788',
+        team: 'solo'
     }
 ]
 

@@ -1,40 +1,29 @@
 const pho1_data = [
     {
-        player: 'BOT 1',
-        time: 610,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 1288,
+        src: 'https://www.bilibili.com/video/BV1Jj411s7CX/?spm_id_from=333.337',
+        team: 'solo'
     },
-    {
-        player: 'BOT 2',
-        time: 350,
-        src: 'www.youtube.com'
-    }
 ]
 
 const pho2_data = [
     {
-        player: 'BOT 1',
-        time: 400,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 1440,
+        src: 'https://www.bilibili.com/video/BV18e411o7oY/?spm_id_from=333.788',
+        team: 'solo'
     },
-    {
-        player: 'BOT 2',
-        time: 500,
-        src: 'www.youtube.com'
-    }
 ]
 
 const pho3_data = [
     {
-        player: 'BOT 1',
-        time: 300,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 1540,
+        src: 'https://www.bilibili.com/video/BV1tj411s7pL/?spm_id_from=333.788',
+        team: 'solo'
     },
-    {
-        player: 'BOT 2',
-        time: 600,
-        src: 'www.youtube.com'
-    }
 ]
+
 
 export { pho1_data, pho2_data, pho3_data }

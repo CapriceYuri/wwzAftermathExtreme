@@ -1,52 +1,36 @@
 const mos1_data = [
     {
-        player: 'BOT 1',
-        time: 610,
-        src: 'www.youtube.com'
-    },
-    {
-        player: 'BOT 2',
-        time: 350,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 674,
+        src: 'https://www.bilibili.com/video/BV1gs4y1r7LP/?spm_id_from=333.788',
+        team: 'solo'
     }
 ]
 
 const mos2_data = [
     {
-        player: 'BOT 1',
-        time: 400,
-        src: 'www.youtube.com'
-    },
-    {
-        player: 'BOT 2',
-        time: 500,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 844,
+        src: 'https://www.bilibili.com/video/BV1b14y197ps/?spm_id_from=333.788',
+        team: 'solo'
     }
 ]
 
 const mos3_data = [
     {
-        player: 'BOT 1',
-        time: 300,
-        src: 'www.youtube.com'
-    },
-    {
-        player: 'BOT 2',
-        time: 600,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 683,
+        src: 'https://www.bilibili.com/video/BV1Ax4y1o7i2/?spm_id_from=333.788',
+        team: 'solo'
     }
 ]
 
 const mos4_data = [
     {
-        player: 'BOT 1',
-        time: 450,
-        src: 'www.youtube.com'
-    },
-    {
-        player: 'BOT 2',
-        time: 900,
-        src: 'www.youtube.com'
+        player: '玉米大战僵尸',
+        time: 814,
+        src: 'https://www.bilibili.com/video/BV1W94y1i7x7/?spm_id_from=333.788',
+        team: 'solo'
     }
 ]
 
