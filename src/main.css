@@ -100,12 +100,17 @@ a {
 
 .admin-color,
 .admin-border,
-.admin-name {
+.admin-name,
+.admin-head {
   transition: 500ms ease-in-out;
 }
 
 .blue {
   color: #007FFF;
+}
+
+.blue-border {
+  border-color: #007FFF;
 }
 
 .bg5,
