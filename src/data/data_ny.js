@@ -47,6 +47,7 @@ const ny4_data = [
         player: 'xD3viLz',
         time: 537,
         src: 'https://www.youtube.com/watch?v=ZqBcznjD0pg',
+        team: 'solo'
     },
     {
         player: '玉米大战僵尸',
