@@ -3,7 +3,8 @@ const mos1_data = [
         player: '玉米大战僵尸',
         time: 674,
         src: 'https://www.bilibili.com/video/BV1gs4y1r7LP/?spm_id_from=333.788',
-        team: 'solo'
+        team: 'solo',
+        comp: ['D'],
     }
 ]
 
@@ -12,7 +13,8 @@ const mos2_data = [
         player: '玉米大战僵尸',
         time: 844,
         src: 'https://www.bilibili.com/video/BV1b14y197ps/?spm_id_from=333.788',
-        team: 'solo'
+        team: 'solo',
+        comp: ['D'],
     }
 ]
 
@@ -21,7 +23,8 @@ const mos3_data = [
         player: '玉米大战僵尸',
         time: 683,
         src: 'https://www.bilibili.com/video/BV1Ax4y1o7i2/?spm_id_from=333.788',
-        team: 'solo'
+        team: 'solo',
+        comp: ['D'],
     }
 ]
 
@@ -30,6 +33,8 @@ const mos4_data = [
         player: 'xD3viLz',
         time: 555,
         src: 'https://www.youtube.com/watch?v=WKxiUogZsMs',
+        member: ['xD3viLz', 'bot', 'bot', 'bot'],
+        comp: ['F', 'D', 'E', 'D'],
     },
     {
         player: '玉米大战僵尸',

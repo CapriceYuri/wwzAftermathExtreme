@@ -9,6 +9,8 @@ const tok1_data = [
         player: 'Tokyo Speedrun',
         time: 611,
         src: 'https://www.youtube.com/watch?v=AiV7wZiSWa0&t=1055s',
+        member: ['Siberia', 'ssw', 'Mewtaility', 'Tina'],
+        comp: ['G', 'E', 'F', 'D'],
     },
     {
         player: '玉米大战僵尸',
@@ -29,6 +31,8 @@ const tok2_data = [
         player: 'Tokyo Speedrun',
         time: 555,
         src: 'https://www.youtube.com/watch?v=AiV7wZiSWa0&t=1055s',
+        member: ['Siberia', 'Mewtaility', 'ssw', 'Tina'],
+        comp: ['E', 'H', 'D', 'D'],
     },
     {
         player: '玉米大战僵尸',
@@ -49,6 +53,8 @@ const tok3_data = [
         player: 'Tokyo Speedrun',
         time: 556,
         src: 'https://www.youtube.com/watch?v=AiV7wZiSWa0&t=1055s',
+        member: ['Siberia', 'Tina', 'ssw', 'Mewtaility'],
+        comp: ['E', 'D', 'D', 'H'],
     },
     {
         player: '玉米大战僵尸',

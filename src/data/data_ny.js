@@ -3,6 +3,8 @@ const ny1_data = [
         player: 'xD3viLz',
         time: 395,
         src: 'https://www.youtube.com/watch?v=bFg62xUW6_E&t=1s',
+        member: ['xD3viLz', 'bot', 'bot', 'bot'],
+        comp: ['D', 'E', 'D', 'G'],
     },
     {
         player: '玉米大战僵尸',
@@ -17,14 +19,15 @@ const ny2_data = [
         player: 'xD3viLz',
         time: 665,
         src: 'https://www.youtube.com/watch?v=wSaRIPGBNGU',
-        team: 'solo'
+        team: 'solo',
+        comp: ['H'],
     },
     {
         player: '玉米大战僵尸',
         time: 741,
         src: 'https://www.bilibili.com/video/BV1FV411M7Kj/?spm_id_from=333.788',
         team: 'solo'
-    }
+    },
 ]
 
 const ny3_data = [
@@ -32,7 +35,8 @@ const ny3_data = [
         player: 'xD3viLz',
         time: 538,
         src: 'https://www.youtube.com/watch?v=zRgMxi9FXaY',
-        team: 'solo'
+        team: 'solo',
+        comp: ['V'],
     },
     {
         player: '玉米大战僵尸',
@@ -47,7 +51,8 @@ const ny4_data = [
         player: 'xD3viLz',
         time: 537,
         src: 'https://www.youtube.com/watch?v=ZqBcznjD0pg',
-        team: 'solo'
+        team: 'solo',
+        comp: ['V'],
     },
     {
         player: '玉米大战僵尸',
