@@ -23,6 +23,13 @@ const ny2_data = [
         comp: ['H'],
     },
     {
+        player: 'NH2-CH-COOH',
+        time: 490,
+        src: 'https://www.bilibili.com/video/BV1tN4y1d7Ft/?spm_id_from=333.788',
+        member: ['NH2-CH-COOH', 'bot', 'bot', 'bot'],
+        comp: ['?', '?', '?', '?'],
+    },
+    {
         player: '玉米大战僵尸',
         time: 741,
         src: 'https://www.bilibili.com/video/BV1FV411M7Kj/?spm_id_from=333.788',

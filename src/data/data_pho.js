@@ -17,8 +17,8 @@ const pho1_data = [
 const pho2_data = [
     {
         player: '玉米大战僵尸',
-        time: 1440,
-        src: 'https://www.bilibili.com/video/BV18e411o7oY/?spm_id_from=333.788',
+        time: 1540,
+        src: 'https://www.bilibili.com/video/BV1tj411s7pL/?spm_id_from=333.788',
         team: 'solo',
         comp: ['D'],
     },
@@ -27,8 +27,8 @@ const pho2_data = [
 const pho3_data = [
     {
         player: '玉米大战僵尸',
-        time: 1540,
-        src: 'https://www.bilibili.com/video/BV1tj411s7pL/?spm_id_from=333.788',
+        time: 1440,
+        src: 'https://www.bilibili.com/video/BV18e411o7oY/?spm_id_from=333.788',
         team: 'solo',
         comp: ['D'],
     },
