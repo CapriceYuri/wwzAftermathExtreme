@@ -50,6 +50,10 @@ body {
   color: #28cc9e;
 }
 
+.lightgreen-border {
+  border-color: #28cc9e;
+}
+
 .grey {
   color: #748b9c;
 }
@@ -142,14 +146,19 @@ a {
 }
 
 .bg5,
-.bg3,
-.kokak {
+.bg1,
+.bg2,
+.bg3 {
   background-position: center;
   background-size: cover;
 }
 
-.kokak {
-  background-image: url("../images/kokakbg.png");
+.bg1 {
+  background-image: url("../images/bg1.png");
+}
+
+.bg2 {
+  background-image: url("../images/bg2.png");
 }
 
 .bg5 {
