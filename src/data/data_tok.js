@@ -22,7 +22,7 @@ const tok1_data = [
         player: 'cathybear',
         time: 614,
         src: 'https://www.youtube.com/watch?v=2UJ71_mbwSI',
-        member: ['cathybear', 'bot', 'ABA-180MM', 'bot'],
+        member: ['cathybear', 'JK', 'ABA-180MM', '雷包VS新手'],
         comp: ['G', 'F', 'E', 'G'],
     },
 ]
@@ -51,7 +51,7 @@ const tok2_data = [
         player: 'cathybear',
         time: 547,
         src: 'https://www.youtube.com/watch?v=2UJ71_mbwSI',
-        member: ['cathybear', 'ABA-180MM', 'bot', 'bot'],
+        member: ['cathybear', 'ABA-180MM', '雷包VS新手', 'JK'],
         comp: ['M', 'M', 'D', 'D'],
     },
 ]
@@ -67,7 +67,7 @@ const tok3_data = [
         player: 'cathybear',
         time: 558,
         src: 'https://www.youtube.com/watch?v=2UJ71_mbwSI',
-        member: ['cathybear', 'ABA-180MM', 'bot', 'bot'],
+        member: ['cathybear', 'ABA-180MM', '雷包VS新手', 'JK'],
         comp: ['H', 'G', 'D', 'D'],
     },
     {
