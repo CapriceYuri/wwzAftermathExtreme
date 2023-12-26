@@ -17,7 +17,14 @@ const tok1_data = [
         time: 865,
         src: 'https://www.bilibili.com/video/BV1U14y197rw/?spm_id_from=333.788',
         team: 'solo'
-    }
+    },
+    {
+        player: 'cathybear',
+        time: 614,
+        src: 'https://www.youtube.com/watch?v=2UJ71_mbwSI',
+        member: ['cathybear', 'bot', 'ABA-180MM', 'bot'],
+        comp: ['G', 'F', 'E', 'G'],
+    },
 ]
 
 const tok2_data = [
@@ -39,7 +46,14 @@ const tok2_data = [
         time: 695,
         src: 'https://www.bilibili.com/video/BV1jm4y1E7tj/?spm_id_from=333.788',
         team: 'solo'
-    }
+    },
+    {
+        player: 'cathybear',
+        time: 547,
+        src: 'https://www.youtube.com/watch?v=2UJ71_mbwSI',
+        member: ['cathybear', 'ABA-180MM', 'bot', 'bot'],
+        comp: ['M', 'M', 'D', 'D'],
+    },
 ]
 
 const tok3_data = [
@@ -48,6 +62,13 @@ const tok3_data = [
         time: 746,
         src: 'https://www.youtube.com/watch?v=3g3AVQqAiic&t=0s',
         team: 'solo'
+    },
+    {
+        player: 'cathybear',
+        time: 558,
+        src: 'https://www.youtube.com/watch?v=2UJ71_mbwSI',
+        member: ['cathybear', 'ABA-180MM', 'bot', 'bot'],
+        comp: ['H', 'G', 'D', 'D'],
     },
     {
         player: 'Tokyo Speedrun',
