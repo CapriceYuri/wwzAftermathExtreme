@@ -6,6 +6,13 @@ const mar1_data = [
         team: 'solo',
         comp: ['D'],
     },
+    {
+        player: 'おやじ日本人',
+        time: 696,
+        src: 'https://www.youtube.com/watch?v=_38TPMx1zGU',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'D'],
+    }
 ]
 
 const mar2_data = [
@@ -22,6 +29,13 @@ const mar2_data = [
         src: 'https://www.bilibili.com/video/BV1fF411d7Vz/?spm_id_from=333.788',
         team: 'solo'
     },
+    {
+        player: 'おやじ日本人',
+        time: 359,
+        src: 'https://www.youtube.com/watch?v=wMGWbrH_SME&t=3s',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['V', 'V'],
+    }
 ]
 
 const mar3_data = [
@@ -31,6 +45,13 @@ const mar3_data = [
         src: 'https://www.bilibili.com/video/BV1fF411d7Vz/?spm_id_from=333.788',
         team: 'solo',
         comp: ['D'],
+    },
+    {
+        player: 'おやじ日本人',
+        time: 547,
+        src: 'https://www.youtube.com/watch?v=GBCTokQuc9c',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['H', 'D'],
     }
 ]
 

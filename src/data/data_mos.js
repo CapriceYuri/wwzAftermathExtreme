@@ -15,6 +15,13 @@ const mos2_data = [
         src: 'https://www.bilibili.com/video/BV1b14y197ps/?spm_id_from=333.788',
         team: 'solo',
         comp: ['D'],
+    },
+    {
+        player: 'おやじ日本人',
+        time: 599,
+        src: 'https://www.youtube.com/watch?v=B-5kWThcsdo',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'E'],
     }
 ]
 
@@ -25,6 +32,13 @@ const mos3_data = [
         src: 'https://www.bilibili.com/video/BV1Ax4y1o7i2/?spm_id_from=333.788',
         team: 'solo',
         comp: ['D'],
+    },
+    {
+        player: 'おやじ日本人',
+        time: 582,
+        src: 'https://www.youtube.com/watch?v=HdpT1mj0XIY',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['V', 'V'],
     }
 ]
 

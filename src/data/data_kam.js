@@ -15,6 +15,13 @@ const kam2_data = [
         src: 'https://www.bilibili.com/video/BV1iu411V7rD/?spm_id_from=333.788',
         team: 'solo',
         comp: ['D'],
+    },
+    {
+        player: 'おやじ日本人',
+        time: 736,
+        src: 'https://www.youtube.com/watch?v=4UcrSqiJdyU',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'E'],
     }
 ]
 
@@ -26,6 +33,13 @@ const kam3_data = [
         team: 'solo',
         comp: ['D'],
     },
+    {
+        player: 'おやじ日本人',
+        time: 937,
+        src: 'https://www.youtube.com/watch?v=qoN0ajbOk-U',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'E'],
+    }
 ]
 
 export { kam1_data, kam2_data, kam3_data }
