@@ -12,6 +12,13 @@ const pho1_data = [
         src: 'https://www.bilibili.com/video/BV1Jj411s7CX/?spm_id_from=333.337',
         team: 'solo'
     },
+    {
+        player: 'おやじ日本人',
+        time: 690,
+        src: 'https://www.twitch.tv/videos/2009085138',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['V', 'V'],
+    }
 ]
 
 const pho2_data = [
@@ -22,6 +29,13 @@ const pho2_data = [
         team: 'solo',
         comp: ['D'],
     },
+    {
+        player: 'おやじ日本人',
+        time: 980,
+        src: 'https://www.twitch.tv/videos/2009085138',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'E'],
+    }
 ]
 
 const pho3_data = [
@@ -32,6 +46,13 @@ const pho3_data = [
         team: 'solo',
         comp: ['D'],
     },
+    {
+        player: 'おやじ日本人',
+        time: 1084,
+        src: 'https://www.twitch.tv/videos/2009085138',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'E'],
+    }
 ]
 
 
