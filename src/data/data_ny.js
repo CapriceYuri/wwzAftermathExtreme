@@ -66,7 +66,14 @@ const ny4_data = [
         time: 657,
         src: 'https://www.bilibili.com/video/BV1FV411T7JF/?spm_id_from=333.788',
         team: 'solo'
-    }
+    },
+    {
+        player: 'ABA-180MM',
+        time: 534,
+        src: 'https://www.youtube.com/watch?v=ra1wwZre_zE',
+        team: 'solo',
+        comp: ['M'],
+    },
 ]
 
 export { ny1_data, ny2_data, ny3_data, ny4_data }
