@@ -1,6 +1,6 @@
 const tok1_data = [
     {
-        player: 'ABA-180MM',
+        player: 'ABA',
         time: 694,
         src: 'https://www.youtube.com/watch?v=D_U8J7ri2Dc',
         team: 'solo'
@@ -29,7 +29,7 @@ const tok1_data = [
 
 const tok2_data = [
     {
-        player: 'ABA-180MM',
+        player: 'ABA',
         time: 590,
         src: 'https://www.youtube.com/watch?v=_Ksco-D5JC4&t=7s',
         team: 'solo'
@@ -51,14 +51,14 @@ const tok2_data = [
         player: 'cathybear',
         time: 547,
         src: 'https://www.youtube.com/watch?v=2UJ71_mbwSI',
-        member: ['cathybear', 'ABA-180MM', '雷包VS新手', 'JK'],
+        member: ['cathybear', 'ABA', '雷包VS新手', 'JK'],
         comp: ['M', 'M', 'D', 'D'],
     },
 ]
 
 const tok3_data = [
     {
-        player: 'ABA-180MM',
+        player: 'ABA',
         time: 746,
         src: 'https://www.youtube.com/watch?v=3g3AVQqAiic&t=0s',
         team: 'solo'
@@ -67,7 +67,7 @@ const tok3_data = [
         player: 'cathybear',
         time: 558,
         src: 'https://www.youtube.com/watch?v=2UJ71_mbwSI',
-        member: ['cathybear', 'ABA-180MM', '雷包VS新手', 'JK'],
+        member: ['cathybear', 'ABA', '雷包VS新手', 'JK'],
         comp: ['H', 'G', 'D', 'D'],
     },
     {

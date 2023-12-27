@@ -68,7 +68,7 @@ const ny4_data = [
         team: 'solo'
     },
     {
-        player: 'ABA-180MM',
+        player: 'ABA',
         time: 534,
         src: 'https://www.youtube.com/watch?v=ra1wwZre_zE',
         team: 'solo',
