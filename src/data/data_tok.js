@@ -25,6 +25,13 @@ const tok1_data = [
         member: ['cathybear', 'JK', 'ABA-180MM', '雷包VS新手'],
         comp: ['G', 'F', 'E', 'G'],
     },
+    {
+        player: 'おやじ日本人',
+        time: 749,
+        src: 'https://www.twitch.tv/videos/2014126776',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'D'],
+    }
 ]
 
 const tok2_data = [
@@ -54,6 +61,13 @@ const tok2_data = [
         member: ['cathybear', 'ABA', '雷包VS新手', 'JK'],
         comp: ['M', 'M', 'D', 'D'],
     },
+    {
+        player: 'おやじ日本人',
+        time: 602,
+        src: 'https://www.twitch.tv/videos/2014126776',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'E'],
+    }
 ]
 
 const tok3_data = [
@@ -82,6 +96,13 @@ const tok3_data = [
         time: 848,
         src: 'https://www.bilibili.com/video/BV1Az4y1E7fX/?spm_id_from=333.788',
         team: 'solo'
+    },
+    {
+        player: 'おやじ日本人',
+        time: 555,
+        src: 'https://www.twitch.tv/videos/2014126776',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'E'],
     }
 ]
 

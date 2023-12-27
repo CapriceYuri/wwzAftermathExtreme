@@ -6,6 +6,13 @@ const rom1_data = [
         team: 'solo',
         comp: ['D'],
     },
+    {
+        player: 'おやじ日本人',
+        time: 693,
+        src: 'https://www.twitch.tv/videos/2015017757',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'D'],
+    }
 ]
 
 const rom2_data = [
@@ -16,6 +23,13 @@ const rom2_data = [
         team: 'solo',
         comp: ['D'],
     },
+    {
+        player: 'おやじ日本人',
+        time: 917,
+        src: 'https://www.twitch.tv/videos/2015017757',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'D'],
+    }
 ]
 
 const rom3_data = [
@@ -26,6 +40,13 @@ const rom3_data = [
         team: 'solo',
         comp: ['D'],
     },
+    {
+        player: 'おやじ日本人',
+        time: 678,
+        src: 'https://www.twitch.tv/videos/2015017757',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'D'],
+    }
 
 ]
 

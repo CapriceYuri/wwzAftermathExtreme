@@ -12,7 +12,7 @@ const mar1_data = [
         src: 'https://www.youtube.com/watch?v=_38TPMx1zGU',
         member: ['おやじ日本人', 'bot'],
         comp: ['D', 'D'],
-    }
+    },
 ]
 
 const mar2_data = [

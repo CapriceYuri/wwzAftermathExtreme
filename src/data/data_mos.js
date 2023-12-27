@@ -55,6 +55,13 @@ const mos4_data = [
         time: 814,
         src: 'https://www.bilibili.com/video/BV1W94y1i7x7/?spm_id_from=333.788',
         team: 'solo'
+    },
+    {
+        player: 'おやじ日本人',
+        time: 659,
+        src: 'https://www.twitch.tv/videos/2014126776',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'D'],
     }
 ]
 
