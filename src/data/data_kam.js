@@ -6,6 +6,13 @@ const kam1_data = [
         team: 'solo',
         comp: ['D'],
     },
+    {
+        player: 'Taiwan-Malaysia',
+        time: 694,
+        src: 'https://www.youtube.com/watch?v=ORUamv_6_cs',
+        member: ['ABA', '楊楊', '龍蝦', '原神高手魚片'],
+        comp: ['D', 'D', 'V', 'F'],
+    },
 ]
 
 const kam2_data = [

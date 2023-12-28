@@ -5,7 +5,14 @@ const mos1_data = [
         src: 'https://www.bilibili.com/video/BV1gs4y1r7LP/?spm_id_from=333.788',
         team: 'solo',
         comp: ['D'],
-    }
+    },
+    {
+        player: 'Taiwan-Malaysia',
+        time: 545,
+        src: 'https://www.youtube.com/watch?v=gZXXIIuM6SA',
+        member: ['ABA', '楊楊', '龍蝦', '原神高手魚片'],
+        comp: ['D', 'D', 'V', 'F'],
+    },
 ]
 
 const mos2_data = [
