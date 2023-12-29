@@ -13,6 +13,13 @@ const kam1_data = [
         member: ['ABA', '楊楊', '龍蝦', '原神高手魚片'],
         comp: ['D', 'D', 'V', 'F'],
     },
+    {
+        player: 'おやじ日本人',
+        time: 725,
+        src: 'https://www.twitch.tv/videos/2016883830',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'E'],
+    }
 ]
 
 const kam2_data = [
@@ -25,7 +32,7 @@ const kam2_data = [
     },
     {
         player: 'おやじ日本人',
-        time: 736,
+        time: 660,
         src: 'https://www.youtube.com/watch?v=4UcrSqiJdyU',
         member: ['おやじ日本人', 'bot'],
         comp: ['D', 'E'],

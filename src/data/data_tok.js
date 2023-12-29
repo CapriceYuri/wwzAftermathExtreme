@@ -27,10 +27,10 @@ const tok1_data = [
     },
     {
         player: 'おやじ日本人',
-        time: 749,
-        src: 'https://www.twitch.tv/videos/2014126776',
+        time: 666,
+        src: 'https://www.twitch.tv/videos/2016809997',
         member: ['おやじ日本人', 'bot'],
-        comp: ['D', 'D'],
+        comp: ['D', 'E'],
     }
 ]
 

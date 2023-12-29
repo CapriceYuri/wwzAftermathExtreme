@@ -14,8 +14,8 @@ const pho1_data = [
     },
     {
         player: 'おやじ日本人',
-        time: 690,
-        src: 'https://www.twitch.tv/videos/2009085138',
+        time: 658,
+        src: 'https://www.twitch.tv/videos/2016883830',
         member: ['おやじ日本人', 'bot'],
         comp: ['V', 'V'],
     }

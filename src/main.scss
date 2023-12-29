@@ -225,3 +225,10 @@ a {
         transform: translate(0);
     }
 }
+
+// FOCUS
+.focus {
+    backdrop-filter: blur(10px);
+    display: inline-block;
+    border-radius: 10px;
+}

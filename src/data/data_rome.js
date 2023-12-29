@@ -42,10 +42,10 @@ const rom3_data = [
     },
     {
         player: 'おやじ日本人',
-        time: 678,
-        src: 'https://www.twitch.tv/videos/2015017757',
+        time: 586,
+        src: 'https://www.twitch.tv/videos/2016883830',
         member: ['おやじ日本人', 'bot'],
-        comp: ['D', 'D'],
+        comp: ['D', 'E'],
     }
 
 ]

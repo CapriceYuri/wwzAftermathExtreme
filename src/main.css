@@ -212,3 +212,9 @@ a {
     transform: translate(0);
   }
 }
+.focus {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  display: inline-block;
+  border-radius: 10px;
+}
