@@ -152,7 +152,8 @@ a {
 .bg5,
 .bg1,
 .bg2,
-.bg3 {
+.bg3,
+.bg4 {
   background-position: center;
   background-size: cover;
 }
@@ -163,6 +164,10 @@ a {
 
 .bg2 {
   background-image: url("../images/bg2.png");
+}
+
+.bg4 {
+  background-image: url("../images/bg4.png");
 }
 
 .bg5 {
