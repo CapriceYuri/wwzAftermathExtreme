@@ -226,9 +226,19 @@ a {
     }
 }
 
-// FOCUS
+// FOCUS & Music
 .focus {
     backdrop-filter: blur(10px);
     display: inline-block;
     border-radius: 10px;
+}
+
+.play-music {
+    display: inline;
+    position: fixed;
+    opacity: 50%;
+    font-size: 100px;
+    right: 0;
+    bottom: 0;
+    transform: translate(-100px);
 }
