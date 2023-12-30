@@ -46,7 +46,14 @@ const mos3_data = [
         src: 'https://www.youtube.com/watch?v=HdpT1mj0XIY',
         member: ['おやじ日本人', 'bot'],
         comp: ['V', 'V'],
-    }
+    },
+    {
+        player: 'xD3viLz',
+        time: 567,
+        src: 'https://www.youtube.com/watch?v=rHrKRvjaBPo',
+        member: ['xD3viLz', 'bot', 'bot', 'bot'],
+        comp: ['D', 'D', 'S', 'S'],
+    },
 ]
 
 const mos4_data = [

@@ -19,10 +19,10 @@ const jer1_data = [
 const jer2_data = [
     {
         player: 'xD3viLz',
-        time: 450,
-        src: 'https://www.youtube.com/watch?v=X9FHgaE6Bvc',
+        time: 412,
+        src: 'https://www.youtube.com/watch?v=yY1kgIB0tPA',
         member: ['xD3viLz', 'bot', 'bot', 'bot'],
-        comp: ['D', 'E', 'D', 'E'],
+        comp: ['H', 'E', 'D', 'D'],
     },
     {
         player: '玉米大战僵尸',

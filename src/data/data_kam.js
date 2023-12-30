@@ -19,7 +19,14 @@ const kam1_data = [
         src: 'https://www.twitch.tv/videos/2016883830',
         member: ['おやじ日本人', 'bot'],
         comp: ['D', 'E'],
-    }
+    },
+    {
+        player: 'xD3viLz',
+        time: 684,
+        src: 'https://www.youtube.com/watch?v=VgNPKUT59w4',
+        member: ['xD3viLz', 'bot', 'bot', 'bot'],
+        comp: ['D', 'E', 'D', 'G'],
+    },
 ]
 
 const kam2_data = [
@@ -36,7 +43,14 @@ const kam2_data = [
         src: 'https://www.youtube.com/watch?v=4UcrSqiJdyU',
         member: ['おやじ日本人', 'bot'],
         comp: ['D', 'E'],
-    }
+    },
+    {
+        player: 'xD3viLz',
+        time: 647,
+        src: 'https://www.youtube.com/watch?v=_iyMyGoEkMM',
+        member: ['xD3viLz', 'bot', 'bot', 'bot'],
+        comp: ['D', 'D', 'E', 'G'],
+    },
 ]
 
 const kam3_data = [
@@ -53,7 +67,14 @@ const kam3_data = [
         src: 'https://www.youtube.com/watch?v=qoN0ajbOk-U',
         member: ['おやじ日本人', 'bot'],
         comp: ['D', 'E'],
-    }
+    },
+    {
+        player: 'xD3viLz',
+        time: 922,
+        src: 'https://www.youtube.com/watch?v=I1bbmp7QtAI',
+        member: ['xD3viLz', 'bot', 'bot', 'bot'],
+        comp: ['D', 'D', 'E', 'G'],
+    },
 ]
 
 export { kam1_data, kam2_data, kam3_data }

@@ -35,7 +35,14 @@ const pho2_data = [
         src: 'https://www.twitch.tv/videos/2009085138',
         member: ['おやじ日本人', 'bot'],
         comp: ['D', 'E'],
-    }
+    },
+    {
+        player: 'xD3viLz',
+        time: 893,
+        src: 'https://www.youtube.com/watch?v=mCiMVIFa3_o',
+        member: ['xD3viLz', 'bot', 'bot', 'bot'],
+        comp: ['D', 'D', 'G', 'G'],
+    },
 ]
 
 const pho3_data = [
@@ -52,7 +59,14 @@ const pho3_data = [
         src: 'https://www.twitch.tv/videos/2009085138',
         member: ['おやじ日本人', 'bot'],
         comp: ['D', 'E'],
-    }
+    },
+    {
+        player: 'xD3viLz',
+        time: 1043,
+        src: 'https://www.youtube.com/watch?v=c39Ebp5HxNg',
+        member: ['xD3viLz', 'bot', 'bot', 'bot'],
+        comp: ['D', 'D', 'G', 'G'],
+    },
 ]
 
 
