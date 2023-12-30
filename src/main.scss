@@ -236,9 +236,10 @@ a {
 .play-music {
     display: inline;
     position: fixed;
-    opacity: 50%;
-    font-size: 100px;
+    opacity: 40%;
+    font-size: 80px;
     right: 0;
     bottom: 0;
-    transform: translate(-100px);
+    transform: translate(-80px);
+    cursor: pointer;
 }
