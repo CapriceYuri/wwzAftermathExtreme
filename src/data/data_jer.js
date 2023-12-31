@@ -13,7 +13,13 @@ const jer1_data = [
         member: ['ABA', '楊楊', '龍蝦', '原神高手魚片'],
         comp: ['V', 'G', 'V', 'E'],
     },
-
+    {
+        player: 'おやじ日本人',
+        time: 697,
+        src: 'https://www.twitch.tv/videos/2018669827',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'E'],
+    },
 ]
 
 const jer2_data = [
@@ -37,6 +43,13 @@ const jer2_data = [
         member: ['ABA', '楊楊', '龍蝦', '原神高手魚片'],
         comp: ['D', 'D', 'V', 'H'],
     },
+    {
+        player: 'おやじ日本人',
+        time: 455,
+        src: 'https://twitch.tv/videos/2018669827',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'E'],
+    },
 ]
 
 const jer3_data = [
@@ -53,6 +66,13 @@ const jer3_data = [
         src: 'https://www.youtube.com/watch?v=LcAwTa5EHxI',
         member: ['ABA', '楊楊', '龍蝦', '原神高手魚片'],
         comp: ['D', 'D', 'V', 'H'],
+    },
+    {
+        player: 'おやじ日本人',
+        time: 867,
+        src: 'https://twitch.tv/videos/2018669827',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'E'],
     },
 ]
 
