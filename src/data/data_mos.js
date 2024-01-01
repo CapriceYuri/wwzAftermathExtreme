@@ -34,7 +34,7 @@ const mos2_data = [
         player: 'Taiwan-Malaysia',
         time: 594,
         src: 'https://www.youtube.com/watch?v=npgXsbVn03k',
-        member: ['ABA', '楊楊', 'bot', '原神高手魚片'],
+        member: ['ABA', '楊楊', 'EricHsiao', '原神高手魚片'],
         comp: ['D', 'D', 'V', 'F'],
     },
 ]
@@ -65,7 +65,7 @@ const mos3_data = [
         player: 'Taiwan-Malaysia',
         time: 554,
         src: 'https://www.youtube.com/watch?v=j8SO59KskTo',
-        member: ['ABA', '楊楊', 'bot', '原神高手魚片'],
+        member: ['ABA', '楊楊', 'EricHsiao', '原神高手魚片'],
         comp: ['D', 'D', 'V', 'G'],
     },
 ]
