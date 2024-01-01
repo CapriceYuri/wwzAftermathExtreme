@@ -45,8 +45,8 @@ const jer2_data = [
     },
     {
         player: 'おやじ日本人',
-        time: 455,
-        src: 'https://twitch.tv/videos/2018669827',
+        time: 438,
+        src: 'https://www.twitch.tv/videos/2019602907',
         member: ['おやじ日本人', 'bot'],
         comp: ['D', 'E'],
     },

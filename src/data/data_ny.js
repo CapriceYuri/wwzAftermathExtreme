@@ -12,6 +12,13 @@ const ny1_data = [
         src: 'https://www.bilibili.com/video/BV1gX4y1W7rr/?spm_id_from=333.788',
         team: 'solo'
     },
+    {
+        player: 'おやじ日本人',
+        time: 400,
+        src: 'https://www.twitch.tv/videos/2019602907',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'E'],
+    },
 ]
 
 const ny2_data = [
@@ -34,6 +41,13 @@ const ny2_data = [
         time: 741,
         src: 'https://www.bilibili.com/video/BV1FV411M7Kj/?spm_id_from=333.788',
         team: 'solo'
+    },
+    {
+        player: 'おやじ日本人',
+        time: 555,
+        src: 'https://www.twitch.tv/videos/2019602907',
+        member: ['おやじ日本人', 'bot'],
+        comp: ['D', 'E'],
     },
 ]
 

@@ -25,8 +25,8 @@ const mos2_data = [
     },
     {
         player: 'おやじ日本人',
-        time: 599,
-        src: 'https://www.youtube.com/watch?v=B-5kWThcsdo',
+        time: 573,
+        src: 'https://www.twitch.tv/videos/2019474421',
         member: ['おやじ日本人', 'bot'],
         comp: ['D', 'E'],
     },
