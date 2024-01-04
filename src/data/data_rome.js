@@ -8,10 +8,10 @@ const rom1_data = [
     },
     {
         player: 'おやじ日本人',
-        time: 693,
-        src: 'https://www.twitch.tv/videos/2015017757',
-        member: ['おやじ日本人', 'bot'],
-        comp: ['D', 'D'],
+        time: 618,
+        src: 'https://www.twitch.tv/videos/2021261065',
+        member: ['おやじ日本人', 'BadOssan'],
+        comp: ['D', 'E'],
     },
     {
         player: 'xD3viLz',

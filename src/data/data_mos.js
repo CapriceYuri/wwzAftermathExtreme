@@ -32,10 +32,10 @@ const mos2_data = [
     },
     {
         player: 'Taiwan-Malaysia',
-        time: 594,
-        src: 'https://www.youtube.com/watch?v=npgXsbVn03k',
-        member: ['ABA', '楊楊', 'EricHsiao', '原神高手魚片'],
-        comp: ['D', 'D', 'V', 'F'],
+        time: 553,
+        src: 'https://www.youtube.com/watch?v=_KEoQHOJ4Vw',
+        member: ['ABA', '楊楊', '銀痕', '原神高手魚片'],
+        comp: ['V', 'D', 'D', 'H'],
     },
 ]
 

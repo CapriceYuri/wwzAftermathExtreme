@@ -8,10 +8,10 @@ const jer1_data = [
     },
     {
         player: 'Taiwan-Malaysia',
-        time: 712,
-        src: 'https://www.youtube.com/watch?v=bCCDoLHtMvU',
-        member: ['ABA', '楊楊', '龍蝦', '原神高手魚片'],
-        comp: ['V', 'G', 'V', 'E'],
+        time: 695,
+        src: 'https://www.youtube.com/watch?v=WNQktrlIBbk',
+        member: ['ABA', '楊楊', '銀痕', '野口 ハヤシ'],
+        comp: ['D', 'F', 'V', 'D'],
     },
     {
         player: 'おやじ日本人',
@@ -69,9 +69,9 @@ const jer3_data = [
     },
     {
         player: 'おやじ日本人',
-        time: 867,
-        src: 'https://twitch.tv/videos/2018669827',
-        member: ['おやじ日本人', 'bot'],
+        time: 827,
+        src: 'https://twitch.tv/videos/2020379024',
+        member: ['おやじ日本人', 'BadOssan'],
         comp: ['D', 'E'],
     },
 ]

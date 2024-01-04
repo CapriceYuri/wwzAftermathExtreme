@@ -8,9 +8,9 @@ const mar1_data = [
     },
     {
         player: 'おやじ日本人',
-        time: 696,
-        src: 'https://www.youtube.com/watch?v=_38TPMx1zGU',
-        member: ['おやじ日本人', 'bot'],
+        time: 649,
+        src: 'https://www.twitch.tv/videos/2021111214',
+        member: ['おやじ日本人', 'Badossan'],
         comp: ['D', 'D'],
     },
 ]
@@ -33,7 +33,7 @@ const mar2_data = [
         player: 'おやじ日本人',
         time: 359,
         src: 'https://www.youtube.com/watch?v=wMGWbrH_SME&t=3s',
-        member: ['おやじ日本人', 'bot'],
+        member: ['おやじ日本人', 'Badossan'],
         comp: ['V', 'V'],
     }
 ]
@@ -48,10 +48,10 @@ const mar3_data = [
     },
     {
         player: 'おやじ日本人',
-        time: 547,
-        src: 'https://www.youtube.com/watch?v=GBCTokQuc9c',
-        member: ['おやじ日本人', 'bot'],
-        comp: ['H', 'D'],
+        time: 539,
+        src: 'https://www.twitch.tv/videos/2021111214',
+        member: ['おやじ日本人', 'Badossan'],
+        comp: ['D', 'E'],
     }
 ]
 
