@@ -16,7 +16,7 @@ const pho1_data = [
         player: 'おやじ日本人',
         time: 658,
         src: 'https://www.twitch.tv/videos/2016883830',
-        member: ['おやじ日本人', 'Badossan'],
+        member: ['おやじ日本人', 'BadOssan'],
         comp: ['V', 'V'],
     }
 ]

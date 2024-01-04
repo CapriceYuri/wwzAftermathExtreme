@@ -101,7 +101,7 @@ const tok3_data = [
         player: 'おやじ日本人',
         time: 555,
         src: 'https://www.twitch.tv/videos/2014126776',
-        member: ['おやじ日本人', 'Badossan'],
+        member: ['おやじ日本人', 'BadOssan'],
         comp: ['D', 'E'],
     }
 ]

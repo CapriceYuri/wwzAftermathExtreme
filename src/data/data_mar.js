@@ -10,7 +10,7 @@ const mar1_data = [
         player: 'おやじ日本人',
         time: 649,
         src: 'https://www.twitch.tv/videos/2021111214',
-        member: ['おやじ日本人', 'Badossan'],
+        member: ['おやじ日本人', 'BadOssan'],
         comp: ['D', 'D'],
     },
 ]
@@ -33,7 +33,7 @@ const mar2_data = [
         player: 'おやじ日本人',
         time: 359,
         src: 'https://www.youtube.com/watch?v=wMGWbrH_SME&t=3s',
-        member: ['おやじ日本人', 'Badossan'],
+        member: ['おやじ日本人', 'BadOssan'],
         comp: ['V', 'V'],
     }
 ]
@@ -50,7 +50,7 @@ const mar3_data = [
         player: 'おやじ日本人',
         time: 539,
         src: 'https://www.twitch.tv/videos/2021111214',
-        member: ['おやじ日本人', 'Badossan'],
+        member: ['おやじ日本人', 'BadOssan'],
         comp: ['D', 'E'],
     }
 ]
