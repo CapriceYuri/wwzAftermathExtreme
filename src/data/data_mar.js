@@ -13,6 +13,13 @@ const mar1_data = [
         member: ['おやじ日本人', 'BadOssan'],
         comp: ['D', 'D'],
     },
+    {
+        player: 'TW.HK.MY',
+        time: 597,
+        src: 'https://www.youtube.com/watch?v=8MINogYFq9Y',
+        member: ['ABA', 'KSY', 'cathybear', 'JK'],
+        comp: ['H', 'H', 'D', 'D'],
+    },
 ]
 
 const mar2_data = [

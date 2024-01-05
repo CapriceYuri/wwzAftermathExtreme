@@ -7,7 +7,7 @@ const jer1_data = [
         comp: ['D'],
     },
     {
-        player: 'Taiwan-Malaysia',
+        player: 'TW.HK.MY',
         time: 695,
         src: 'https://www.youtube.com/watch?v=WNQktrlIBbk',
         member: ['ABA', '楊楊', '銀痕', '野口 ハヤシ'],
@@ -37,7 +37,7 @@ const jer2_data = [
         team: 'solo'
     },
     {
-        player: 'Taiwan-Malaysia',
+        player: 'TW.HK.MY',
         time: 421,
         src: 'https://www.youtube.com/watch?v=FdK-nOuHjBI',
         member: ['ABA', '楊楊', '龍蝦', '原神高手魚片'],
@@ -61,7 +61,7 @@ const jer3_data = [
         comp: ['D'],
     },
     {
-        player: 'Taiwan-Malaysia',
+        player: 'TW.HK.MY',
         time: 786,
         src: 'https://www.youtube.com/watch?v=beUZOVT4TD4',
         member: ['ABA', 'KSY'],

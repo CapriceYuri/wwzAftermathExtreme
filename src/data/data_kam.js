@@ -7,7 +7,7 @@ const kam1_data = [
         comp: ['D'],
     },
     {
-        player: 'Taiwan-Malaysia',
+        player: 'TW.HK.MY',
         time: 694,
         src: 'https://www.youtube.com/watch?v=ORUamv_6_cs',
         member: ['ABA', '楊楊', '龍蝦', '原神高手魚片'],

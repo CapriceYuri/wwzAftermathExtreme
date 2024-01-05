@@ -7,7 +7,7 @@ const mos1_data = [
         comp: ['D'],
     },
     {
-        player: 'Taiwan-Malaysia',
+        player: 'TW.HK.MY',
         time: 545,
         src: 'https://www.youtube.com/watch?v=gZXXIIuM6SA',
         member: ['ABA', '楊楊', '龍蝦', '原神高手魚片'],
@@ -31,7 +31,7 @@ const mos2_data = [
         comp: ['D', 'E'],
     },
     {
-        player: 'Taiwan-Malaysia',
+        player: 'TW.HK.MY',
         time: 553,
         src: 'https://www.youtube.com/watch?v=_KEoQHOJ4Vw',
         member: ['ABA', '楊楊', '銀痕', '原神高手魚片'],
@@ -62,7 +62,7 @@ const mos3_data = [
         comp: ['D', 'D', 'S', 'S'],
     },
     {
-        player: 'Taiwan-Malaysia',
+        player: 'TW.HK.MY',
         time: 554,
         src: 'https://www.youtube.com/watch?v=j8SO59KskTo',
         member: ['ABA', '楊楊', 'EricHsiao', '原神高手魚片'],
