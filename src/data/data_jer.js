@@ -62,10 +62,10 @@ const jer3_data = [
     },
     {
         player: 'Taiwan-Malaysia',
-        time: 873,
-        src: 'https://www.youtube.com/watch?v=LcAwTa5EHxI',
-        member: ['ABA', '楊楊', '龍蝦', '原神高手魚片'],
-        comp: ['D', 'D', 'V', 'H'],
+        time: 786,
+        src: 'https://www.youtube.com/watch?v=beUZOVT4TD4',
+        member: ['ABA', 'KSY'],
+        comp: ['D', 'G'],
     },
     {
         player: 'おやじ日本人',
