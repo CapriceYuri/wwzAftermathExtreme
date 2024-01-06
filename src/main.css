@@ -46,6 +46,14 @@ body {
   color: #b485d8;
 }
 
+.greenyellow {
+  color: #FF00FF;
+}
+
+.purple-border {
+  border-color: #8A2BE2;
+}
+
 .lightpurple-border {
   border-color: #b485d8;
 }
