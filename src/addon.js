@@ -56,11 +56,11 @@ for (let x = 0; x < timeAgo.length; x++) {
     const tempNum = (Math.floor((formattedToday.getTime() - temp.getTime()) / (86400000))).toString()
 
     if (+tempNum > 60) {
-        timeAgo[x].classList.add("text-danger", "h5");
+        timeAgo[x].classList.add("text-danger");
     } else if (+tempNum > 30) {
-        timeAgo[x].classList.add("text-warning", "h6");
+        timeAgo[x].classList.add("text-warning");
     }
-    timeAgo[x].textContent = `${tempNum} D/天`
+    timeAgo[x].textContent = `${tempNum}天/D`
 }
 
 
