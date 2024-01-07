@@ -12,6 +12,7 @@ const mos1_data = [
         src: 'https://www.youtube.com/watch?v=gZXXIIuM6SA',
         member: ['ABA', '楊楊', '龍蝦', '原神高手魚片'],
         comp: ['D', 'D', 'V', 'F'],
+        date: '12/28/2023'
     },
 ]
 
@@ -36,6 +37,7 @@ const mos2_data = [
         src: 'https://www.youtube.com/watch?v=_KEoQHOJ4Vw',
         member: ['ABA', '楊楊', '銀痕', '原神高手魚片'],
         comp: ['V', 'D', 'D', 'H'],
+        date: '1/4/2024'
     },
 ]
 
@@ -67,6 +69,7 @@ const mos3_data = [
         src: 'https://www.youtube.com/watch?v=j8SO59KskTo',
         member: ['ABA', '楊楊', 'EricHsiao', '原神高手魚片'],
         comp: ['D', 'D', 'V', 'G'],
+        date: '1/1/2024'
     },
 ]
 
@@ -77,6 +80,7 @@ const mos4_data = [
         src: 'https://www.youtube.com/watch?v=WKxiUogZsMs',
         member: ['xD3viLz', 'bot', 'bot', 'bot'],
         comp: ['F', 'D', 'E', 'D'],
+        date: '5/12/2023'
     },
     {
         player: '玉米大战僵尸',

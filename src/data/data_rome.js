@@ -12,6 +12,7 @@ const rom1_data = [
         src: 'https://www.twitch.tv/videos/2021261065',
         member: ['おやじ日本人', 'BadOssan'],
         comp: ['D', 'E'],
+        date: '1/2/2024'
     },
     {
         player: 'xD3viLz',
@@ -43,6 +44,7 @@ const rom2_data = [
         src: 'https://www.youtube.com/watch?v=KB1rZR-9nao',
         member: ['xD3viLz', 'bot', 'bot', 'bot'],
         comp: ['D', 'D', 'G', 'H'],
+        date: '4/24/2023'
     },
 ]
 
@@ -67,6 +69,7 @@ const rom3_data = [
         src: 'https://www.youtube.com/watch?v=4mfhoBOX1B4',
         member: ['xD3viLz', 'bot', 'bot', 'bot'],
         comp: ['D', 'D', 'G', 'H'],
+        date: '4/24/2023'
     },
 
 ]

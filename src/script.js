@@ -296,7 +296,7 @@ function sortingNum(a, b) {
     return a - b;
 }
 
-// Check Standind
+// Check Standing
 function checkStanding(obj) {
 
     let tempArr = [];

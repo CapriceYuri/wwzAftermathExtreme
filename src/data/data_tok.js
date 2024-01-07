@@ -11,6 +11,7 @@ const tok1_data = [
         src: 'https://www.youtube.com/watch?v=AiV7wZiSWa0&t=1055s',
         member: ['Siberia', 'ssw', 'Mewtaility', 'Tina'],
         comp: ['G', 'E', 'F', 'D'],
+        date: '6/30/2023'
     },
     {
         player: '玉米大战僵尸',
@@ -60,6 +61,7 @@ const tok2_data = [
         src: 'https://www.youtube.com/watch?v=2UJ71_mbwSI',
         member: ['cathybear', 'ABA', '雷包VS新手', 'JK'],
         comp: ['M', 'M', 'D', 'D'],
+        date: '6/30/2023'
     },
 ]
 
@@ -83,6 +85,7 @@ const tok3_data = [
         src: 'https://www.youtube.com/watch?v=AiV7wZiSWa0&t=1055s',
         member: ['Siberia', 'Tina', 'ssw', 'Mewtaility'],
         comp: ['E', 'D', 'D', 'H'],
+        date: '6/30/2023'
     },
     {
         player: '玉米大战僵尸',

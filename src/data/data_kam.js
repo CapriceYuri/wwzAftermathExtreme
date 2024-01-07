@@ -26,6 +26,7 @@ const kam1_data = [
         src: 'https://www.youtube.com/watch?v=VgNPKUT59w4',
         member: ['xD3viLz', 'bot', 'bot', 'bot'],
         comp: ['D', 'E', 'D', 'G'],
+        date: '3/20/2023'
     },
 ]
 
@@ -50,6 +51,7 @@ const kam2_data = [
         src: 'https://www.youtube.com/watch?v=_iyMyGoEkMM',
         member: ['xD3viLz', 'bot', 'bot', 'bot'],
         comp: ['D', 'D', 'E', 'G'],
+        date: '3/20/2023'
     },
 ]
 
@@ -74,6 +76,7 @@ const kam3_data = [
         src: 'https://www.youtube.com/watch?v=I1bbmp7QtAI',
         member: ['xD3viLz', 'bot', 'bot', 'bot'],
         comp: ['D', 'D', 'E', 'G'],
+        date: '3/20/2023'
     },
 ]
 

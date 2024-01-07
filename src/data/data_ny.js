@@ -5,6 +5,7 @@ const ny1_data = [
         src: 'https://www.youtube.com/watch?v=bFg62xUW6_E&t=1s',
         member: ['xD3viLz', 'bot', 'bot', 'bot'],
         comp: ['D', 'E', 'D', 'G'],
+        date: '3/2/2023'
     },
     {
         player: '玉米大战僵尸',
@@ -35,6 +36,7 @@ const ny2_data = [
         src: 'https://www.bilibili.com/video/BV1tN4y1d7Ft/?spm_id_from=333.788',
         member: ['NH2-CH-COOH', 'bot', 'bot', 'bot'],
         comp: ['?', '?', '?', '?'],
+        date: '8/24/2023'
     },
     {
         player: '玉米大战僵尸',
@@ -58,6 +60,7 @@ const ny3_data = [
         src: 'https://www.youtube.com/watch?v=zRgMxi9FXaY',
         team: 'solo',
         comp: ['V'],
+        date: '6/24/2022'
     },
     {
         player: '玉米大战僵尸',
@@ -87,6 +90,7 @@ const ny4_data = [
         src: 'https://www.youtube.com/watch?v=ra1wwZre_zE',
         team: 'solo',
         comp: ['M'],
+        date: '12/26/2023'
     },
 ]
 

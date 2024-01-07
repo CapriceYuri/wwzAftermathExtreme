@@ -19,6 +19,7 @@ const mar1_data = [
         src: 'https://www.youtube.com/watch?v=8MINogYFq9Y',
         member: ['ABA', 'KSY', 'cathybear', 'JK'],
         comp: ['H', 'H', 'D', 'D'],
+        date: '1/5/2024'
     },
 ]
 
@@ -42,6 +43,7 @@ const mar2_data = [
         src: 'https://www.youtube.com/watch?v=wMGWbrH_SME&t=3s',
         member: ['おやじ日本人', 'BadOssan'],
         comp: ['V', 'V'],
+        date: '8/13/2023'
     }
 ]
 
@@ -59,6 +61,7 @@ const mar3_data = [
         src: 'https://www.twitch.tv/videos/2021111214',
         member: ['おやじ日本人', 'BadOssan'],
         comp: ['D', 'E'],
+        date: '1/2/2024'
     }
 ]
 

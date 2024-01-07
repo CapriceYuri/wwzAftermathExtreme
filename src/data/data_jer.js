@@ -12,6 +12,7 @@ const jer1_data = [
         src: 'https://www.youtube.com/watch?v=WNQktrlIBbk',
         member: ['ABA', '楊楊', '銀痕', '野口 ハヤシ'],
         comp: ['D', 'F', 'V', 'D'],
+        date: '1/4/2024'
     },
     {
         player: 'おやじ日本人',
@@ -29,6 +30,7 @@ const jer2_data = [
         src: 'https://www.youtube.com/watch?v=yY1kgIB0tPA',
         member: ['xD3viLz', 'bot', 'bot', 'bot'],
         comp: ['H', 'E', 'D', 'D'],
+        date: '4/4/2023'
     },
     {
         player: '玉米大战僵尸',
@@ -66,6 +68,7 @@ const jer3_data = [
         src: 'https://www.youtube.com/watch?v=beUZOVT4TD4',
         member: ['ABA', 'KSY'],
         comp: ['D', 'G'],
+        date: '1/5/2024'
     },
     {
         player: 'おやじ日本人',
