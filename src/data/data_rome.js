@@ -12,6 +12,7 @@ const rom1_data = [
         src: 'https://www.youtube.com/watch?v=SK3CCftfYH8',
         member: ['xD3viLz', 'bot', 'bot', 'bot'],
         comp: ['D', 'D', 'G', 'H'],
+        date: '4/24/2023'
     },
 ]
 

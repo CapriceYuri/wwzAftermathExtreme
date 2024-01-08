@@ -56,13 +56,6 @@ const jer3_data = [
         comp: ['D', 'G'],
         date: '1/5/2024'
     },
-    {
-        player: 'おやじ日本人',
-        time: 827,
-        src: 'https://twitch.tv/videos/2020379024',
-        member: ['おやじ日本人', 'BadOssan'],
-        comp: ['D', 'E'],
-    },
 ]
 
 export { jer1_data, jer2_data, jer3_data }

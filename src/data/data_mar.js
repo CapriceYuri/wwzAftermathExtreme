@@ -47,6 +47,7 @@ const mar3_data = [
         src: 'https://www.bilibili.com/video/BV1fF411d7Vz/?spm_id_from=333.788',
         team: 'solo',
         comp: ['D'],
+        date: '6/30/2023'
     },
 ]
 
