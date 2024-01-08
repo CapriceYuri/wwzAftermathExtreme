@@ -7,14 +7,6 @@ const rom1_data = [
         comp: ['D'],
     },
     {
-        player: 'おやじ日本人',
-        time: 618,
-        src: 'https://www.twitch.tv/videos/2021261065',
-        member: ['おやじ日本人', 'BadOssan'],
-        comp: ['D', 'E'],
-        date: '1/2/2024'
-    },
-    {
         player: 'xD3viLz',
         time: 650,
         src: 'https://www.youtube.com/watch?v=SK3CCftfYH8',
@@ -30,13 +22,6 @@ const rom2_data = [
         src: 'https://www.bilibili.com/video/BV1yV411K7Ho/?spm_id_from=333.788',
         team: 'solo',
         comp: ['D'],
-    },
-    {
-        player: 'おやじ日本人',
-        time: 917,
-        src: 'https://www.twitch.tv/videos/2015017757',
-        member: ['おやじ日本人', 'bot'],
-        comp: ['D', 'D'],
     },
     {
         player: 'xD3viLz',
@@ -55,13 +40,6 @@ const rom3_data = [
         src: 'https://www.bilibili.com/video/BV1iz4y177WS/?spm_id_from=333.788',
         team: 'solo',
         comp: ['D'],
-    },
-    {
-        player: 'おやじ日本人',
-        time: 586,
-        src: 'https://www.twitch.tv/videos/2016883830',
-        member: ['おやじ日本人', 'bot'],
-        comp: ['D', 'E'],
     },
     {
         player: 'xD3viLz',

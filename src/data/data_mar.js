@@ -7,13 +7,6 @@ const mar1_data = [
         comp: ['D'],
     },
     {
-        player: 'おやじ日本人',
-        time: 649,
-        src: 'https://www.twitch.tv/videos/2021111214',
-        member: ['おやじ日本人', 'BadOssan'],
-        comp: ['D', 'D'],
-    },
-    {
         player: 'TW.HK.MY',
         time: 597,
         src: 'https://www.youtube.com/watch?v=8MINogYFq9Y',
@@ -55,14 +48,6 @@ const mar3_data = [
         team: 'solo',
         comp: ['D'],
     },
-    {
-        player: 'おやじ日本人',
-        time: 539,
-        src: 'https://www.twitch.tv/videos/2021111214',
-        member: ['おやじ日本人', 'BadOssan'],
-        comp: ['D', 'E'],
-        date: '1/2/2024'
-    }
 ]
 
 export { mar1_data, mar2_data, mar3_data }

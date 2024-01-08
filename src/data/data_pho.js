@@ -31,13 +31,6 @@ const pho2_data = [
         comp: ['D'],
     },
     {
-        player: 'おやじ日本人',
-        time: 980,
-        src: 'https://www.twitch.tv/videos/2009085138',
-        member: ['おやじ日本人', 'bot'],
-        comp: ['D', 'E'],
-    },
-    {
         player: 'xD3viLz',
         time: 893,
         src: 'https://www.youtube.com/watch?v=mCiMVIFa3_o',
@@ -54,13 +47,6 @@ const pho3_data = [
         src: 'https://www.bilibili.com/video/BV18e411o7oY/?spm_id_from=333.788',
         team: 'solo',
         comp: ['D'],
-    },
-    {
-        player: 'おやじ日本人',
-        time: 1084,
-        src: 'https://www.twitch.tv/videos/2009085138',
-        member: ['おやじ日本人', 'bot'],
-        comp: ['D', 'E'],
     },
     {
         player: 'xD3viLz',

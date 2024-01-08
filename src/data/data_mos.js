@@ -25,13 +25,6 @@ const mos2_data = [
         comp: ['D'],
     },
     {
-        player: 'おやじ日本人',
-        time: 573,
-        src: 'https://www.twitch.tv/videos/2019474421',
-        member: ['おやじ日本人', 'bot'],
-        comp: ['D', 'E'],
-    },
-    {
         player: 'TW.HK.MY',
         time: 553,
         src: 'https://www.youtube.com/watch?v=_KEoQHOJ4Vw',
@@ -48,13 +41,6 @@ const mos3_data = [
         src: 'https://www.bilibili.com/video/BV1Ax4y1o7i2/?spm_id_from=333.788',
         team: 'solo',
         comp: ['D'],
-    },
-    {
-        player: 'おやじ日本人',
-        time: 582,
-        src: 'https://www.youtube.com/watch?v=HdpT1mj0XIY',
-        member: ['おやじ日本人', 'bot'],
-        comp: ['V', 'V'],
     },
     {
         player: 'xD3viLz',

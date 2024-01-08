@@ -26,13 +26,6 @@ const tok1_data = [
         member: ['cathybear', 'JK', 'ABA-180MM', '雷包VS新手'],
         comp: ['G', 'F', 'E', 'G'],
     },
-    {
-        player: 'おやじ日本人',
-        time: 666,
-        src: 'https://www.twitch.tv/videos/2016809997',
-        member: ['おやじ日本人', 'bot'],
-        comp: ['D', 'E'],
-    }
 ]
 
 const tok2_data = [

@@ -14,13 +14,6 @@ const kam1_data = [
         comp: ['D', 'D', 'V', 'F'],
     },
     {
-        player: 'おやじ日本人',
-        time: 725,
-        src: 'https://www.twitch.tv/videos/2016883830',
-        member: ['おやじ日本人', 'bot'],
-        comp: ['D', 'E'],
-    },
-    {
         player: 'xD3viLz',
         time: 684,
         src: 'https://www.youtube.com/watch?v=VgNPKUT59w4',
