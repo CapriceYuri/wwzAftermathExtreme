@@ -190,12 +190,60 @@ a {
 }
 
 // ANIMATION / Keyframes
+
 .vibrate {
     animation: vibrate-1 0.3s linear infinite;
 }
 
 .pulse {
     animation: pulsate 1s ease-in-out infinite both;
+}
+
+.wobble {
+    animation: wobble 2s linear infinite both;
+}
+
+.spin {
+    animation: rotate-center 4s linear infinite both;
+}
+
+@keyframes rotate-center {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes wobble {
+
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-15px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(7px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-7px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(4px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-3px) rotate(-1.2deg);
+    }
 }
 
 @keyframes pulsate {
@@ -242,9 +290,31 @@ a {
     }
 }
 
-// FOCUS & Music
+// FOCUS
 .focus {
     backdrop-filter: blur(10px);
     display: inline-block;
     border-radius: 10px;
+}
+
+.link {
+    display: inline-block;
+}
+
+.link:hover {
+    scale: 1.25;
+    color: orangered;
+}
+
+.menu-btn {
+    font-size: 75px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 40%;
+    transform: translate(-100px, -100px);
+}
+
+.modal-open {
+    overflow: inherit !important;
 }
