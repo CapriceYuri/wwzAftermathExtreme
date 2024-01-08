@@ -235,14 +235,3 @@ a {
   display: inline-block;
   border-radius: 10px;
 }
-
-.play-music {
-  display: inline;
-  position: fixed;
-  opacity: 40%;
-  font-size: 80px;
-  right: 0;
-  bottom: 0;
-  transform: translate(-80px);
-  cursor: pointer;
-}
