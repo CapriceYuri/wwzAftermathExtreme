@@ -35,7 +35,6 @@ const mar2_data = [
         time: 359,
         src: 'https://www.youtube.com/watch?v=wMGWbrH_SME&t=3s',
         member: ['おやじ日本人', 'BadOssan'],
-        comp: ['V', 'V'],
         date: '8/13/2023'
     },
     {
