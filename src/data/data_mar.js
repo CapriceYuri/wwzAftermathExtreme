@@ -37,7 +37,14 @@ const mar2_data = [
         member: ['おやじ日本人', 'BadOssan'],
         comp: ['V', 'V'],
         date: '8/13/2023'
-    }
+    },
+    {
+        player: 'TW.HK.MY',
+        time: 350,
+        src: 'https://www.youtube.com/watch?v=5eEintvt45w',
+        member: ['ABA', 'Sana', '楊楊', 'KSY'],
+        date: '1/9/2024'
+    },
 ]
 
 const mar3_data = [
@@ -48,6 +55,13 @@ const mar3_data = [
         team: 'solo',
         comp: ['D'],
         date: '6/30/2023'
+    },
+    {
+        player: 'TW.HK.MY',
+        time: 565,
+        src: 'https://www.youtube.com/watch?v=sGUxCNwH_uU',
+        member: ['ABA', '楊楊', '銀痕', 'Sana'],
+        date: '1/9/2024'
     },
 ]
 
