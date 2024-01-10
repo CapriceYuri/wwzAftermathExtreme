@@ -2,31 +2,6 @@
   transition: 500ms linear;
 }
 
-.cover-wrap {
-  position: absolute;
-  background: url("../images/cover.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  z-index: 99;
-}
-
-.cover-title {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  transform: translate(50%, -50%);
-  opacity: 50%;
-  z-index: 99;
-  cursor: pointer;
-}
-
-#page {
-  display: none;
-}
-
 body {
   background-color: #1e1e1e;
 }
