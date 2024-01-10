@@ -21,1360 +21,1358 @@
 </head>
 
 <body>
-    <div id="page">
-        <!-- HEADER SECTION -->
-        <div class="container-fluid px-0">
-            <nav class="navbar bg-dark">
-                <div class="container navbar-dark justify-content-center gap-4">
-                    <div class="navbar-brand mx-auto text-warning">
-                        <i class="bi bi-explicit"></i>
-                        <i class="bi bi-x-octagon"></i>
-                        <i class="bi bi-textarea-t"></i>
-                        <i class="bi bi-r-circle"></i>
-                        <i class="bi bi-explicit"></i>
-                        <i class="bi bi-mastodon"></i>
-                        <i class="bi bi-explicit"></i>
+    <!-- HEADER SECTION -->
+    <div class="container-fluid px-0">
+        <nav class="navbar bg-dark">
+            <div class="container navbar-dark justify-content-center gap-4">
+                <div class="navbar-brand mx-auto text-warning">
+                    <i class="bi bi-explicit"></i>
+                    <i class="bi bi-x-octagon"></i>
+                    <i class="bi bi-textarea-t"></i>
+                    <i class="bi bi-r-circle"></i>
+                    <i class="bi bi-explicit"></i>
+                    <i class="bi bi-mastodon"></i>
+                    <i class="bi bi-explicit"></i>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- EPISODES -->
+    <div class="d-flex justify-content-center my-4">
+        <div class="btn-group" role="group0" aria-label="homepage">
+            <input type="radio" class="btn-check" name="btnradio" id="btnHome" checked>
+            <label class="btn btn-outline-light" for="btnHome">BRIEF</label>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center my-4">
+        <div class="btn-group" role="group1" aria-label="base chapter">
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnNY">
+            <label class="btn btn-outline-light" for="btnNY">NEW YORK</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnJ">
+            <label class="btn btn-outline-light" for="btnJ">JERUSALEM</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnMos">
+            <label class="btn btn-outline-light" for="btnMos">MOSCOW</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnT">
+            <label class="btn btn-outline-light" for="btnT">TOKYO</label>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center my-4">
+        <div class="btn-group" role="group2" aria-label="dlc chapter">
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnMar">
+            <label class="btn btn-outline-light" for="btnMar">MARSEILLE</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnR">
+            <label class="btn btn-outline-light" for="btnR">ROME</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnK">
+            <label class="btn btn-outline-light" for="btnK">KAMCHATKA</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnP">
+            <label class="btn btn-outline-light" for="btnP">PHOENIX</label>
+        </div>
+    </div>
+
+    <!-- BOX HOME / BRIEF -->
+    <div id="boxHome">
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-light h2 text-center font-monospace">EXTREME LEADERBOARD</div>
+                <div class="text-center"><img loading="lazy" src="images/redskull.png" class="ms-1 vibrate"><img loading="lazy" src="images/redskull.png" class="ms-1 vibrate"><img loading="lazy" src="images/redskull.png" class="ms-1 vibrate"><img loading="lazy" src="images/redskull.png" class="ms-1 vibrate"><img loading="lazy" src="images/redskull.png" class="ms-1 vibrate"></div>
+            </div>
+        </div>
+
+        <table class="table table-borderless" id="tableHome">
+
+            <thead class="text-center">
+                <tr class="align-middle font-monospace fs-5">
+                    <th scope="col" class="text-light col-4">MAP/地图</th>
+                    <th scope="col" class="text-light col-4">PLAYER/玩家</th>
+                    <th scope="col" class="text-light col-4">TIME/时间</th>
+                </tr>
+            </thead>
+
+            <tbody class="font-monospace">
+                <tr class="align-middle text-center">
+                    <td class="orange"><i class="bi bi-1-square-fill"></i> <i class="bi bi-1-circle"></i> Descent</td>
+                    <td class="topPlayer orange"></td>
+                    <td class="topTime orange"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="orange"><i class="bi bi-1-square-fill"></i> <i class="bi bi-2-circle"></i> Tunnel Vision</td>
+                    <td class="topPlayer orange"></td>
+                    <td class="topTime orange"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="orange"><i class="bi bi-1-square-fill"></i> <i class="bi bi-3-circle"></i> High and High Water</td>
+                    <td class="topPlayer orange"></td>
+                    <td class="topTime orange"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="orange"><i class="bi bi-1-square-fill"></i> <i class="bi bi-4-circle"></i> Dead In The Water</td>
+                    <td class="topPlayer orange"></td>
+                    <td class="topTime orange"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="yellow"><i class="bi bi-2-square-fill"></i> <i class="bi bi-1-circle-fill"></i> Brain Surgery</td>
+                    <td class="topPlayer yellow"></td>
+                    <td class="topTime yellow"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="yellow"><i class="bi bi-2-square-fill"></i> <i class="bi bi-2-circle-fill"></i> Dead Sea Stroll</td>
+                    <td class="topPlayer yellow"></td>
+                    <td class="topTime yellow"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="yellow"><i class="bi bi-2-square-fill"></i> <i class="bi bi-3-circle-fill"></i> Tech Support</td>
+                    <td class="topPlayer yellow"></td>
+                    <td class="topTime yellow"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="lightblue"><i class="bi bi-3-square-fill"></i> <i class="bi bi-1-circle"></i> A Sign from Above</td>
+                    <td class="topPlayer lightblue"></td>
+                    <td class="topTime lightblue"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="lightblue"><i class="bi bi-3-square-fill"></i> <i class="bi bi-2-circle"></i> Key to the City</td>
+                    <td class="topPlayer lightblue"></td>
+                    <td class="topTime lightblue"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="lightblue"><i class="bi bi-3-square-fill"></i> <i class="bi bi-3-circle"></i> Battle of Nerves</td>
+                    <td class="topPlayer lightblue"></td>
+                    <td class="topTime lightblue"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="lightblue"><i class="bi bi-3-square-fill"></i> <i class="bi bi-4-circle"></i> Resurrection</td>
+                    <td class="topPlayer lightblue"></td>
+                    <td class="topTime lightblue"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="lightpurple"><i class="bi bi-4-square-fill"></i> <i class="bi bi-1-circle-fill"></i> Setting Sun</td>
+                    <td class="topPlayer lightpurple"></td>
+                    <td class="topTime lightpurple"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="lightpurple"><i class="bi bi-4-square-fill"></i> <i class="bi bi-2-circle-fill"></i> Final Call</td>
+                    <td class="topPlayer lightpurple"></td>
+                    <td class="topTime lightpurple"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="lightpurple"><i class="bi bi-4-square-fill"></i> <i class="bi bi-3-circle-fill"></i> Cruise Control</td>
+                    <td class="topPlayer lightpurple"></td>
+                    <td class="topTime lightpurple"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="lightgreen"><i class="bi bi-5-square-fill"></i> <i class="bi bi-1-circle"></i> French Resistance</td>
+                    <td class="topPlayer lightgreen"></td>
+                    <td class="topTime lightgreen"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="lightgreen"><i class="bi bi-5-square-fill"></i> <i class="bi bi-2-circle"></i> Missile Command</td>
+                    <td class="topPlayer lightgreen"></td>
+                    <td class="topTime lightgreen"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="lightgreen"><i class="bi bi-5-square-fill"></i> <i class="bi bi-3-circle"></i> Last Bastion</td>
+                    <td class="topPlayer lightgreen"></td>
+                    <td class="topTime lightgreen"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="grey"><i class="bi bi-6-square-fill"></i> <i class="bi bi-1-circle-fill"></i> Holy Ground</td>
+                    <td class="topPlayer grey"></td>
+                    <td class="topTime grey"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="grey"><i class="bi bi-6-square-fill"></i> <i class="bi bi-2-circle-fill"></i> Call to Arms</td>
+                    <td class="topPlayer grey"></td>
+                    <td class="topTime grey"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="grey"><i class="bi bi-6-square-fill"></i> <i class="bi bi-3-circle-fill"></i> The Final Push</td>
+                    <td class="topPlayer grey"></td>
+                    <td class="topTime grey"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="lightpurple"><i class="bi bi-7-square-fill"></i> <i class="bi bi-1-circle"></i> Dead of Winter</td>
+                    <td class="topPlayer lightpurple"></td>
+                    <td class="topTime lightpurple"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="lightpurple"><i class="bi bi-7-square-fill"></i> <i class="bi bi-2-circle"></i> On the Grid</td>
+                    <td class="topPlayer lightpurple"></td>
+                    <td class="topTime lightpurple"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="lightpurple"><i class="bi bi-7-square-fill"></i> <i class="bi bi-3-circle"></i> Atomic Alliance</td>
+                    <td class="topPlayer lightpurple"></td>
+                    <td class="topTime lightpurple"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="peach"><i class="bi bi-8-square-fill"></i> <i class="bi bi-1-circle-fill"></i> The Low Road</td>
+                    <td class="topPlayer peach"></td>
+                    <td class="topTime peach"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="peach"><i class="bi bi-8-square-fill"></i> <i class="bi bi-2-circle-fill"></i> Trapped in Tempe</td>
+                    <td class="topPlayer peach"></td>
+                    <td class="topTime peach"></td>
+                </tr>
+                <tr class="align-middle text-center">
+                    <td class="peach"><i class="bi bi-8-square-fill"></i> <i class="bi bi-3-circle-fill"></i> Fighting for Home</td>
+                    <td class="topPlayer peach"></td>
+                    <td class="topTime peach"></td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- TEAM COMPOSITION  -->
+        <h2 class="orange text-center font-monospace mt-5"><img loading="lazy" src="images/lighting.gif" width="32" height="auto">TEAM/团队<img loading="lazy" src="images/lighting.gif" width="32" height="auto"></h2>
+
+        <div class="list-group col-lg-8 col-10  rounded-5 mx-auto">
+            <!-- NEW YORK -->
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace orange m-0 justify-self-start">N1</div>
+                    <div class="compo">
+
+                    </div>
+                    <div class="font-monospace timeAgo orange m-0 justify-self-end"></div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace orange m-0 justify-self-start">N2</div>
+                    <div class="compo">
+
+                    </div>
+                    <div class="font-monospace timeAgo orange m-0 justify-self-end"></div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace orange m-0 justify-self-start">N3</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo orange m-0 justify-self-end"></div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace orange m-0 justify-self-start">N4</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo orange m-0 justify-self-end"></div>
+                </div>
+            </a>
+            <!-- JERUSALEM -->
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace yellow m-0 justify-self-start">J1</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo yellow m-0 justify-self-end"></div>
+                </div>
+            </a>
+
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace yellow m-0 justify-self-start">J2</div>
+                    <div class="compo">
+
+                    </div>
+                    <div class="font-monospace timeAgo yellow m-0 justify-self-end"></div>
+                </div>
+            </a>
+
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace yellow m-0 justify-self-start">J3</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo yellow m-0 justify-self-end"></div>
+                </div>
+            </a>
+            <!-- MOSCOW -->
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace lightblue m-0 justify-self-start">M1</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo lightblue m-0 justify-self-end"></div>
+                </div>
+            </a>
+
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace lightblue m-0 justify-self-start">M2</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo lightblue m-0 justify-self-end"></div>
+                </div>
+            </a>
+
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace lightblue m-0 justify-self-start">M3</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo lightblue m-0 justify-self-end"></div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace lightblue m-0 justify-self-start">M4</div>
+                    <div class="compo">
+
+                    </div>
+                    <div class="font-monospace timeAgo lightblue m-0 justify-self-end"></div>
+                </div>
+            </a>
+            <!-- TOKYO -->
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace lightpurple m-0 justify-self-start">T1</div>
+                    <div class="compo">
+
+                    </div>
+                    <div class="font-monospace timeAgo lightpurple m-0 justify-self-end"></div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace lightpurple m-0 justify-self-start">T2</div>
+                    <div class="compo">
+
+                    </div>
+                    <div class="font-monospace timeAgo lightpurple m-0 justify-self-end"></div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace lightpurple m-0 justify-self-start">T3</div>
+                    <div class="compo">
+
+                    </div>
+                    <div class="font-monospace timeAgo lightpurple m-0 justify-self-end"></div>
+                </div>
+            </a>
+            <!-- MARSEILLE -->
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace lightgreen m-0 justify-self-start">M1</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo lightgreen m-0 justify-self-end"></div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace lightgreen m-0 justify-self-start">M2</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo lightgreen m-0 justify-self-end"></div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace lightgreen m-0 justify-self-start">M3</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo lightgreen m-0 justify-self-end"></div>
+                </div>
+            </a>
+            <!-- ROME -->
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace grey m-0 justify-self-start">R1</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo grey m-0 justify-self-end">
+                        </d>
                     </div>
                 </div>
-            </nav>
+            </a>
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace grey m-0 justify-self-start">R2</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo grey m-0 justify-self-end">
+                        </d>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace grey m-0 justify-self-start">R3</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo grey m-0 justify-self-end">
+                        </d>
+                    </div>
+                </div>
+            </a>
+            <!-- KAMCHATKA -->
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace lightpurple m-0 justify-self-start">K1</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo lightpurple m-0 justify-self-end">
+                        </d>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace lightpurple m-0 justify-self-start">K2</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo lightpurple m-0 justify-self-end">
+                        </d>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace lightpurple m-0 justify-self-start">K3</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo lightpurple m-0 justify-self-end">
+                        </d>
+                    </div>
+                </div>
+            </a>
+            <!-- PHOENIX -->
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace peach m-0 justify-self-start">P1</div>
+                    <div class="compo">
+
+                    </div>
+                    <div class="font-monospace timeAgo peach m-0 justify-self-end">
+                        </d>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace peach m-0 justify-self-start">P2</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo peach m-0 justify-self-end">
+                        </d>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="list-group-item text-bg-dark" aria-current="true">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="h4 font-monospace peach m-0 justify-self-start">P3</div>
+                    <div class="compo">
+                    </div>
+                    <div class="font-monospace timeAgo peach m-0 justify-self-end">
+                        </d>
+                    </div>
+                </div>
+            </a>
         </div>
-        <!-- EPISODES -->
-        <div class="d-flex justify-content-center my-4">
-            <div class="btn-group" role="group0" aria-label="homepage">
-                <input type="radio" class="btn-check" name="btnradio" id="btnHome" checked>
-                <label class="btn btn-outline-light" for="btnHome">BRIEF</label>
-            </div>
-        </div>
-        <div class="d-flex justify-content-center my-4">
-            <div class="btn-group" role="group1" aria-label="base chapter">
+        <!-- CARDS -->
+        <div class="container-fluid my-5">
+            <div class="container-fluid mt-4 mb-5">
+                <div class="d-flex justify-content-evenly align-items-end">
+                    <img loading="lazy" src="images/team-12.gif" width="150" height="auto">
+                    <h2 class="text-center font-monospace text-warning">TW HK MY</h2>
+                    <img loading="lazy" src="images/team-copy1.gif" width="150" height="auto">
+                </div>
 
-                <input type="radio" class="btn-check" name="btnradio" id="btnNY">
-                <label class="btn btn-outline-light" for="btnNY">NEW YORK</label>
+                <div class="row gap-1 justify-content-center">
 
-                <input type="radio" class="btn-check" name="btnradio" id="btnJ">
-                <label class="btn btn-outline-light" for="btnJ">JERUSALEM</label>
+                    <div class="card bg1 col-xxl-2 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-ABA.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center darkO px-0">
+                            <h5 class="card-title focus">ABA</h5>
+                            <div><img loading="lazy" src="images/ryu.gif" width="auto" height="50"></div>
+                            <div class="card-text my-1 fw-bold ">我不緊張</div>
+                            <div class="my-1"><a href="https://www.youtube.com/@yipzai2mark" target="_blank"><img loading="lazy" src="images/youtube.png"></a></div>
+                        </div>
+                    </div>
 
-                <input type="radio" class="btn-check" name="btnradio" id="btnMos">
-                <label class="btn btn-outline-light" for="btnMos">MOSCOW</label>
+                    <div class="card bg1 col-xxl-2 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-楊楊.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center darkO px-0 py-1">
+                            <h5 class="card-title focus">楊楊</h5>
+                            <div><img loading="lazy" src="images/jin.gif" width="80" height="auto"></div>
+                            <div class="card-text my-1 fw-bold ">不理不理的國王</div>
+                        </div>
+                    </div>
+                    <div class="card bg1 col-xxl-2 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-龍蝦.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center darkO px-0">
+                            <h5 class="card-title focus">龍蝦</h5>
+                            <div class="card-text my-1 fw-bold "><img loading="lazy" src="images/enja.gif" height="80" width="80"></div>
+                        </div>
+                    </div>
+                    <div class="card bg1 col-xxl-2 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-原神高手魚片.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center darkO px-0">
+                            <h5 class="card-title focus">原神高手魚片</h5>
+                            <div><img loading="lazy" src="images/akari.gif" width="75"></div>
+                            <div class="card-text my-1 fw-bold ">惡魔魚片</div>
+                        </div>
+                    </div>
 
-                <input type="radio" class="btn-check" name="btnradio" id="btnT">
-                <label class="btn btn-outline-light" for="btnT">TOKYO</label>
-            </div>
-        </div>
-        <div class="d-flex justify-content-center my-4">
-            <div class="btn-group" role="group2" aria-label="dlc chapter">
+                    <div class="card bg1 col-xxl-2 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-cathybear.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center darkO px-0">
+                            <h5 class="card-title focus">cathybear</h5>
+                            <div class="card-text my-1"><img loading="lazy" src="images/redspark.gif" width="36"><img loading="lazy" src="images/chunli-run.gif" width="50" height="40"><img loading="lazy" src="images/redspark.gif" width="36"></div>
+                            <div class="my-1"><a href="https://www.youtube.com/@cathybear522" target="_blank"><img loading="lazy" src="images/youtube.png"></a></div>
+                        </div>
+                    </div>
 
-                <input type="radio" class="btn-check" name="btnradio" id="btnMar">
-                <label class="btn btn-outline-light" for="btnMar">MARSEILLE</label>
+                    <div class="card bg1 col-xxl-2 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-KSY.gif" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center darkO px-0">
+                            <h5 class="card-title focus">⁂𝓚𝓼𝔂𝄪</h5>
+                            <div><img loading="lazy" src="images/redspark.gif" width="36"><img loading="lazy" src="images/sukura-run.gif" width="50" height="50"><img loading="lazy" src="images/redspark.gif" width="36"></div>
+                        </div>
+                    </div>
 
-                <input type="radio" class="btn-check" name="btnradio" id="btnR">
-                <label class="btn btn-outline-light" for="btnR">ROME</label>
+                    <div class="card bg1 col-xxl-2 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-雷包VS新手.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center darkO px-0">
+                            <h5 class="card-title focus">雷包VS新手</h5>
+                            <div><img loading="lazy" src="images/lightbluethunder.gif" width="24"><img loading="lazy" src="images/doramon.gif" width="40" height="auto"><img loading="lazy" src="images/lightbluethunder.gif" width="24"></div>
+                            <div class="card-text my-1 fw-bold  ">新手界的驕傲</div>
+                        </div>
+                    </div>
 
-                <input type="radio" class="btn-check" name="btnradio" id="btnK">
-                <label class="btn btn-outline-light" for="btnK">KAMCHATKA</label>
+                    <div class="card bg1 col-xxl-2 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-JK.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center darkO px-0">
+                            <h5 class="card-title focus mb-0">JK</h5>
+                            <div><img loading="lazy" src="images/mina.gif" width="50"></div>
+                            <div class="card-text fw-bold ">笨鸟-更高更远</div>
+                        </div>
+                    </div>
 
-                <input type="radio" class="btn-check" name="btnradio" id="btnP">
-                <label class="btn btn-outline-light" for="btnP">PHOENIX</label>
-            </div>
-        </div>
+                    <div class="card bg1 col-xxl-2 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-EricHsiao.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center darkO px-0">
+                            <h5 class="card-title focus">Eric Hsiao</h5>
+                            <div class="card-text my-1 fw-bold "><img loading="lazy" src="images/redspark.gif" width="36"><img loading="lazy" src="images/bearbrick.gif" width="48" height="auto"><img loading="lazy" src="images/redspark.gif" width="36">
+                            </div>
+                        </div>
+                    </div>
 
-        <!-- BOX HOME / BRIEF -->
-        <div id="boxHome">
+                    <div class="card bg1 col-xxl-2 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-銀痕.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center darkO px-0">
+                            <h5 class="card-title focus">銀痕</h5>
+                            <div class="card-text my-1 fw-bold "><img loading="lazy" src="images/mai.gif" width="90">
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-light h2 text-center font-monospace">EXTREME LEADERBOARD</div>
-                    <div class="text-center"><img loading="lazy" src="images/redskull.png" class="ms-1 vibrate"><img loading="lazy" src="images/redskull.png" class="ms-1 vibrate"><img loading="lazy" src="images/redskull.png" class="ms-1 vibrate"><img loading="lazy" src="images/redskull.png" class="ms-1 vibrate"><img loading="lazy" src="images/redskull.png" class="ms-1 vibrate"></div>
+                    <div class="card bg1 col-xxl-2 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-野口 ハヤシ.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center darkO px-0">
+                            <h5 class="card-title focus">Noguchi</h5>
+                            <div class="card-text my-1 fw-bold "><img loading="lazy" src="images/shizumaru.gif" width="90">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg1 col-xxl-2 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-Sana.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center darkO px-0">
+                            <h5 class="card-title focus px-4">Sana</h5>
+                            <div class="card-text my-1 fw-bold "><img loading="lazy" src="images/xg.gif" width="100">
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
-            <table class="table table-borderless" id="tableHome">
+            <div class="container-fluid mt-4 mb-5">
+                <div class="d-flex justify-content-evenly align-items-end">
+                    <img loading="lazy" src="images/team-21.gif" width="150" height="auto">
+                    <h2 class="text-center font-monospace text-info">THE APEX</h2>
+                    <img loading="lazy" src="images/team-1.gif" width="150" height="auto">
+                </div>
+                <div class="row gap-1 justify-content-center">
+                    <div class="card bg2 col-xl-6 col-lg-6 col-10 border-primary border-4 rounded-5 px-2 ">
+                        <img loading="lazy" src="images/player-xD3viLz.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center text-info px-0">
+                            <h5 class="card-title focus">xD3viLz</h5>
+                            <div class="card-text my-1"><img loading="lazy" src="images/devil.gif" width="60"></div>
+                            <div class="my-1">
+                                <a href="https://www.youtube.com/@xD3viLz/videos" target="_blank"><img loading="lazy" src="images/youtube.png"></a>
+                                <a href="https://www.twitch.tv/xd3vilzx_" target="_blank"><img loading="lazy" src="images/twitch.png" class="ms-1"></a>
+                            </div>
+                        </div>
+                    </div>
 
-                <thead class="text-center">
-                    <tr class="align-middle font-monospace fs-5">
-                        <th scope="col" class="text-light col-4">MAP/地图</th>
-                        <th scope="col" class="text-light col-4">PLAYER/玩家</th>
-                        <th scope="col" class="text-light col-4">TIME/时间</th>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-evenly align-items-end">
+                <img loading="lazy" src="images/team-rest.png" width="200" height="auto" class="rounded-3">
+            </div>
+            <div class="container-fluid mt-4 mb-5">
+                <h2 class="text-center font-monospace align-items-end d-flex justify-content-center text-danger"><img loading="lazy" src="images/orangeredthunder.gif" width="48" height="auto">THE ASCENDANT<img loading="lazy" src="images/orangeredthunder.gif" width="48" height="auto"></h2>
+                <div class="row gap-1 justify-content-center">
+
+                    <div class="card bg4 col-xxl-3 col-lg-3 col-5 border-danger border-4 rounded-5 px-2 ">
+                        <img loading="lazy" src="images/player-おやじ日本人.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center text-danger px-0">
+                            <h5 class="card-title focus">TheOmoti</h5>
+                            <div class="my-1"><img loading="lazy" src="images/duo-left.gif" width="50" height="55"></div>
+                            <div class="card-text text-danger fw-bold my-1">Dynamic Duo</div>
+                            <div class="my-1">
+                                <a href="https://www.youtube.com/@nihonjinoyaji" target="_blank"><img loading="lazy" src="images/youtube.png"></a>
+                                <a href="https://www.twitch.tv/ossankingdom" target="_blank"><img loading="lazy" src="images/twitch.png" class="ms-1"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg4 col-xxl-3 col-lg-3 col-5 border-danger border-4 rounded-5 px-2 ">
+                        <img loading="lazy" src="images/player-BadOssan.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center text-danger px-0">
+                            <h5 class="card-title focus">Bad Ossan</h5>
+                            <div class="my-1"><img loading="lazy" src="images/duo-right.gif" width="60" height="55"></div>
+                            <div class="card-text fw-bold my-1 text-danger">Dynamic Duo</div>
+                            <div class="my-1">
+                                <a href="https://www.youtube.com/@nihonjinoyaji" target="_blank"><img loading="lazy" src="images/youtube.png"></a>
+                                <a href="https://www.twitch.tv/ossankingdom" target="_blank"><img loading="lazy" src="images/twitch.png" class="ms-1"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg4 col-xxl-3 col-lg-3 col-5 border-danger border-4 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-玉米大战僵尸.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center text-danger px-0">
+                            <h5 class="card-title focus">玉米大战僵尸</h5>
+                            <div class="card-text my-1"><img loading="lazy" src="images/rocket.gif" width="48" height="auto"></div>
+                            <div class="my-1">
+                                <a href="https://space.bilibili.com/1645853852" target="_blank"><img loading="lazy" src="images/bilibili.png"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg4 col-xxl-3 col-lg-3 col-5 border-danger border-4 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-NH2-CH-COOH.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center text-danger px-0">
+                            <h5 class="card-title focus">NH2-CH-COOH </h5>
+                            <div class="card-text my-1"><img loading="lazy" src="images/siren.gif" width="32" height="32"></div>
+                            <div class="my-1">
+                                <a href="https://space.bilibili.com/24823462" target="_blank"><img loading="lazy" src="images/bilibili.png"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg4 col-xxl-3 col-lg-3 col-5 border-danger border-4 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-Siberia.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center text-danger px-0">
+                            <h5 class="card-title focus">SiberianPsych0</h5>
+                            <div class="my-1 text-warning fw-bold fst-italic">Tokyo Speedrun</div>
+                            <div class="card-text my-1"><img loading="lazy" src="images/player.gif" width="32" height="32"></div>
+                            <div class="my-1"><a href="https://www.youtube.com/@siberianpsych0" target="_blank"><img loading="lazy" src="images/youtube.png"></a></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg4 col-xxl-3 col-lg-3 col-5 border-danger border-4 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-ssw.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center text-danger px-0">
+                            <h5 class="card-title focus">S SW</h5>
+                            <div class="my-1 text-warning fw-bold fst-italic">Tokyo Speedrun</div>
+                            <div class="card-text my-1"><img loading="lazy" src="images/blueorb.gif" width="30" height="auto"></div>
+
+                        </div>
+                    </div>
+                    <div class="card bg4 col-xxl-3 col-lg-3 col-5 border-danger border-4 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-Tina.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center text-danger px-0">
+                            <h5 class="card-title focus">ACE 𝔗𝔦𝔫𝔞</h5>
+                            <div class="my-1 text-warning fw-bold fst-italic">Tokyo Speedrun</div>
+                            <div class="my-1"><img loading="lazy" src="images/jumpR.gif" width="32" height="32"></div>
+                            <div class="card-text purple fw-bold my-1">Mew Dedicant</div>
+                        </div>
+                    </div>
+
+                    <div class="card bg4 col-xxl-3 col-lg-3 col-5 border-danger border-4 rounded-5 px-1 ">
+                        <img loading="lazy" src="images/player-Mewtaility.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
+                        <div class="card-body text-center text-danger px-0">
+                            <h5 class="card-title focus">Mewtality</h5>
+                            <div class="my-1 text-warning fw-bold fst-italic">Tokyo Speedrun</div>
+                            <div class="my-1"><img loading="lazy" src="images/jumpL.gif" width="32" height="32"></div>
+                            <div class="card-text purple fw-bold my-1">Tina Dedicant</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container my-5">
+                <h2 class="text-center font-monospace admin-head"><img loading="lazy" src="images/purplefire.gif" width="32" height="auto">Contact<img loading="lazy" src="images/purplefire.gif" width="32" height="auto"></h2>
+                <div class="row gap-1 justify-content-center">
+                    <div class="card bg5 col-lg-8 col-10 admin-border rounded-5 border-2 ">
+                        <img loading="lazy" src="images/admin.png" width="100px" height="100px" class="mx-auto my-2 rounded-circle pulse">
+                        <div class="card-body text-center px-0">
+                            <div class="card-text admin-name fw-bold my-1">Discord: capriceyuri</div>
+                            <div class="text-light font-monospace">Last Update: 12.29.23</div>
+                            <div class="text-warning font-monospace">Credits: Flaroh Illustration for Artworks</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- EPISODE NEW YORK -->
+    <div class="boxNY my-5">
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">New York <i class="bi bi-1-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/NY1.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
                     </tr>
                 </thead>
-
-                <tbody class="font-monospace">
-                    <tr class="align-middle text-center">
-                        <td class="orange"><i class="bi bi-1-square-fill"></i> <i class="bi bi-1-circle"></i> Descent</td>
-                        <td class="topPlayer orange"></td>
-                        <td class="topTime orange"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="orange"><i class="bi bi-1-square-fill"></i> <i class="bi bi-2-circle"></i> Tunnel Vision</td>
-                        <td class="topPlayer orange"></td>
-                        <td class="topTime orange"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="orange"><i class="bi bi-1-square-fill"></i> <i class="bi bi-3-circle"></i> High and High Water</td>
-                        <td class="topPlayer orange"></td>
-                        <td class="topTime orange"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="orange"><i class="bi bi-1-square-fill"></i> <i class="bi bi-4-circle"></i> Dead In The Water</td>
-                        <td class="topPlayer orange"></td>
-                        <td class="topTime orange"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="yellow"><i class="bi bi-2-square-fill"></i> <i class="bi bi-1-circle-fill"></i> Brain Surgery</td>
-                        <td class="topPlayer yellow"></td>
-                        <td class="topTime yellow"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="yellow"><i class="bi bi-2-square-fill"></i> <i class="bi bi-2-circle-fill"></i> Dead Sea Stroll</td>
-                        <td class="topPlayer yellow"></td>
-                        <td class="topTime yellow"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="yellow"><i class="bi bi-2-square-fill"></i> <i class="bi bi-3-circle-fill"></i> Tech Support</td>
-                        <td class="topPlayer yellow"></td>
-                        <td class="topTime yellow"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="lightblue"><i class="bi bi-3-square-fill"></i> <i class="bi bi-1-circle"></i> A Sign from Above</td>
-                        <td class="topPlayer lightblue"></td>
-                        <td class="topTime lightblue"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="lightblue"><i class="bi bi-3-square-fill"></i> <i class="bi bi-2-circle"></i> Key to the City</td>
-                        <td class="topPlayer lightblue"></td>
-                        <td class="topTime lightblue"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="lightblue"><i class="bi bi-3-square-fill"></i> <i class="bi bi-3-circle"></i> Battle of Nerves</td>
-                        <td class="topPlayer lightblue"></td>
-                        <td class="topTime lightblue"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="lightblue"><i class="bi bi-3-square-fill"></i> <i class="bi bi-4-circle"></i> Resurrection</td>
-                        <td class="topPlayer lightblue"></td>
-                        <td class="topTime lightblue"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="lightpurple"><i class="bi bi-4-square-fill"></i> <i class="bi bi-1-circle-fill"></i> Setting Sun</td>
-                        <td class="topPlayer lightpurple"></td>
-                        <td class="topTime lightpurple"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="lightpurple"><i class="bi bi-4-square-fill"></i> <i class="bi bi-2-circle-fill"></i> Final Call</td>
-                        <td class="topPlayer lightpurple"></td>
-                        <td class="topTime lightpurple"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="lightpurple"><i class="bi bi-4-square-fill"></i> <i class="bi bi-3-circle-fill"></i> Cruise Control</td>
-                        <td class="topPlayer lightpurple"></td>
-                        <td class="topTime lightpurple"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="lightgreen"><i class="bi bi-5-square-fill"></i> <i class="bi bi-1-circle"></i> French Resistance</td>
-                        <td class="topPlayer lightgreen"></td>
-                        <td class="topTime lightgreen"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="lightgreen"><i class="bi bi-5-square-fill"></i> <i class="bi bi-2-circle"></i> Missile Command</td>
-                        <td class="topPlayer lightgreen"></td>
-                        <td class="topTime lightgreen"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="lightgreen"><i class="bi bi-5-square-fill"></i> <i class="bi bi-3-circle"></i> Last Bastion</td>
-                        <td class="topPlayer lightgreen"></td>
-                        <td class="topTime lightgreen"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="grey"><i class="bi bi-6-square-fill"></i> <i class="bi bi-1-circle-fill"></i> Holy Ground</td>
-                        <td class="topPlayer grey"></td>
-                        <td class="topTime grey"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="grey"><i class="bi bi-6-square-fill"></i> <i class="bi bi-2-circle-fill"></i> Call to Arms</td>
-                        <td class="topPlayer grey"></td>
-                        <td class="topTime grey"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="grey"><i class="bi bi-6-square-fill"></i> <i class="bi bi-3-circle-fill"></i> The Final Push</td>
-                        <td class="topPlayer grey"></td>
-                        <td class="topTime grey"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="lightpurple"><i class="bi bi-7-square-fill"></i> <i class="bi bi-1-circle"></i> Dead of Winter</td>
-                        <td class="topPlayer lightpurple"></td>
-                        <td class="topTime lightpurple"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="lightpurple"><i class="bi bi-7-square-fill"></i> <i class="bi bi-2-circle"></i> On the Grid</td>
-                        <td class="topPlayer lightpurple"></td>
-                        <td class="topTime lightpurple"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="lightpurple"><i class="bi bi-7-square-fill"></i> <i class="bi bi-3-circle"></i> Atomic Alliance</td>
-                        <td class="topPlayer lightpurple"></td>
-                        <td class="topTime lightpurple"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="peach"><i class="bi bi-8-square-fill"></i> <i class="bi bi-1-circle-fill"></i> The Low Road</td>
-                        <td class="topPlayer peach"></td>
-                        <td class="topTime peach"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="peach"><i class="bi bi-8-square-fill"></i> <i class="bi bi-2-circle-fill"></i> Trapped in Tempe</td>
-                        <td class="topPlayer peach"></td>
-                        <td class="topTime peach"></td>
-                    </tr>
-                    <tr class="align-middle text-center">
-                        <td class="peach"><i class="bi bi-8-square-fill"></i> <i class="bi bi-3-circle-fill"></i> Fighting for Home</td>
-                        <td class="topPlayer peach"></td>
-                        <td class="topTime peach"></td>
-                    </tr>
+                <tbody class="ny">
                 </tbody>
             </table>
-            <!-- TEAM COMPOSITION  -->
-            <h2 class="orange text-center font-monospace mt-5"><img loading="lazy" src="images/lighting.gif" width="32" height="auto">TEAM/团队<img loading="lazy" src="images/lighting.gif" width="32" height="auto"></h2>
-
-            <div class="list-group col-lg-8 col-10  rounded-5 mx-auto">
-                <!-- NEW YORK -->
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace orange m-0 justify-self-start">N1</div>
-                        <div class="compo">
-
-                        </div>
-                        <div class="font-monospace timeAgo orange m-0 justify-self-end"></div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace orange m-0 justify-self-start">N2</div>
-                        <div class="compo">
-
-                        </div>
-                        <div class="font-monospace timeAgo orange m-0 justify-self-end"></div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace orange m-0 justify-self-start">N3</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo orange m-0 justify-self-end"></div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace orange m-0 justify-self-start">N4</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo orange m-0 justify-self-end"></div>
-                    </div>
-                </a>
-                <!-- JERUSALEM -->
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace yellow m-0 justify-self-start">J1</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo yellow m-0 justify-self-end"></div>
-                    </div>
-                </a>
-
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace yellow m-0 justify-self-start">J2</div>
-                        <div class="compo">
-
-                        </div>
-                        <div class="font-monospace timeAgo yellow m-0 justify-self-end"></div>
-                    </div>
-                </a>
-
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace yellow m-0 justify-self-start">J3</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo yellow m-0 justify-self-end"></div>
-                    </div>
-                </a>
-                <!-- MOSCOW -->
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace lightblue m-0 justify-self-start">M1</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo lightblue m-0 justify-self-end"></div>
-                    </div>
-                </a>
-
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace lightblue m-0 justify-self-start">M2</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo lightblue m-0 justify-self-end"></div>
-                    </div>
-                </a>
-
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace lightblue m-0 justify-self-start">M3</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo lightblue m-0 justify-self-end"></div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace lightblue m-0 justify-self-start">M4</div>
-                        <div class="compo">
-
-                        </div>
-                        <div class="font-monospace timeAgo lightblue m-0 justify-self-end"></div>
-                    </div>
-                </a>
-                <!-- TOKYO -->
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace lightpurple m-0 justify-self-start">T1</div>
-                        <div class="compo">
-
-                        </div>
-                        <div class="font-monospace timeAgo lightpurple m-0 justify-self-end"></div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace lightpurple m-0 justify-self-start">T2</div>
-                        <div class="compo">
-
-                        </div>
-                        <div class="font-monospace timeAgo lightpurple m-0 justify-self-end"></div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace lightpurple m-0 justify-self-start">T3</div>
-                        <div class="compo">
-
-                        </div>
-                        <div class="font-monospace timeAgo lightpurple m-0 justify-self-end"></div>
-                    </div>
-                </a>
-                <!-- MARSEILLE -->
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace lightgreen m-0 justify-self-start">M1</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo lightgreen m-0 justify-self-end"></div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace lightgreen m-0 justify-self-start">M2</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo lightgreen m-0 justify-self-end"></div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace lightgreen m-0 justify-self-start">M3</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo lightgreen m-0 justify-self-end"></div>
-                    </div>
-                </a>
-                <!-- ROME -->
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace grey m-0 justify-self-start">R1</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo grey m-0 justify-self-end">
-                            </d>
-                        </div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace grey m-0 justify-self-start">R2</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo grey m-0 justify-self-end">
-                            </d>
-                        </div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace grey m-0 justify-self-start">R3</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo grey m-0 justify-self-end">
-                            </d>
-                        </div>
-                    </div>
-                </a>
-                <!-- KAMCHATKA -->
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace lightpurple m-0 justify-self-start">K1</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo lightpurple m-0 justify-self-end">
-                            </d>
-                        </div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace lightpurple m-0 justify-self-start">K2</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo lightpurple m-0 justify-self-end">
-                            </d>
-                        </div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace lightpurple m-0 justify-self-start">K3</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo lightpurple m-0 justify-self-end">
-                            </d>
-                        </div>
-                    </div>
-                </a>
-                <!-- PHOENIX -->
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace peach m-0 justify-self-start">P1</div>
-                        <div class="compo">
-
-                        </div>
-                        <div class="font-monospace timeAgo peach m-0 justify-self-end">
-                            </d>
-                        </div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace peach m-0 justify-self-start">P2</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo peach m-0 justify-self-end">
-                            </d>
-                        </div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item text-bg-dark" aria-current="true">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="h4 font-monospace peach m-0 justify-self-start">P3</div>
-                        <div class="compo">
-                        </div>
-                        <div class="font-monospace timeAgo peach m-0 justify-self-end">
-                            </d>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- CARDS -->
-            <div class="container my-5">
-                <div class="container mt-4 mb-5">
-                    <div class="d-flex justify-content-evenly align-items-end">
-                        <img loading="lazy" src="images/team-12.gif" width="150" height="auto">
-                        <h2 class="text-center font-monospace text-warning">TW HK MY</h2>
-                        <img loading="lazy" src="images/team-copy1.gif" width="150" height="auto">
-                    </div>
-
-                    <div class="row gap-1 justify-content-center">
-
-                        <div class="card bg1 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-ABA.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center darkO px-0">
-                                <h5 class="card-title focus">ABA</h5>
-                                <div><img loading="lazy" src="images/ryu.gif" width="auto" height="50"></div>
-                                <div class="card-text my-1 fw-bold ">我不緊張</div>
-                                <div class="my-1"><a href="https://www.youtube.com/@yipzai2mark" target="_blank"><img loading="lazy" src="images/youtube.png"></a></div>
-                            </div>
-                        </div>
-
-                        <div class="card bg1 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-楊楊.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center darkO px-0 py-1">
-                                <h5 class="card-title focus">楊楊</h5>
-                                <div><img loading="lazy" src="images/jin.gif" width="80" height="auto"></div>
-                                <div class="card-text my-1 fw-bold ">不理不理的國王</div>
-                            </div>
-                        </div>
-                        <div class="card bg1 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-龍蝦.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center darkO px-0">
-                                <h5 class="card-title focus">龍蝦</h5>
-                                <div class="card-text my-1 fw-bold "><img loading="lazy" src="images/enja.gif" height="80" width="80"></div>
-                            </div>
-                        </div>
-                        <div class="card bg1 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-原神高手魚片.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center darkO px-0">
-                                <h5 class="card-title focus">原神高手魚片</h5>
-                                <div><img loading="lazy" src="images/akari.gif" width="75"></div>
-                                <div class="card-text my-1 fw-bold ">惡魔魚片</div>
-                            </div>
-                        </div>
-
-                        <div class="card bg1 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-cathybear.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center darkO px-0">
-                                <h5 class="card-title focus">cathybear</h5>
-                                <div class="card-text my-1"><img loading="lazy" src="images/redspark.gif" width="36"><img loading="lazy" src="images/chunli-run.gif" width="50" height="40"><img loading="lazy" src="images/redspark.gif" width="36"></div>
-                                <div class="my-1"><a href="https://www.youtube.com/@cathybear522" target="_blank"><img loading="lazy" src="images/youtube.png"></a></div>
-                            </div>
-                        </div>
-
-                        <div class="card bg1 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-KSY.gif" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center darkO px-0">
-                                <h5 class="card-title focus">⁂𝓚𝓼𝔂𝄪</h5>
-                                <div><img loading="lazy" src="images/redspark.gif" width="36"><img loading="lazy" src="images/sukura-run.gif" width="50" height="50"><img loading="lazy" src="images/redspark.gif" width="36"></div>
-                            </div>
-                        </div>
-
-                        <div class="card bg1 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-雷包VS新手.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center darkO px-0">
-                                <h5 class="card-title focus">雷包VS新手</h5>
-                                <div><img loading="lazy" src="images/lightbluethunder.gif" width="24"><img loading="lazy" src="images/doramon.gif" width="40" height="auto"><img loading="lazy" src="images/lightbluethunder.gif" width="24"></div>
-                                <div class="card-text my-1 fw-bold  ">新手界的驕傲</div>
-                            </div>
-                        </div>
-
-                        <div class="card bg1 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-JK.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center darkO px-0">
-                                <h5 class="card-title focus mb-0">JK</h5>
-                                <div><img loading="lazy" src="images/mina.gif" width="50"></div>
-                                <div class="card-text fw-bold ">笨鸟-更高更远</div>
-                            </div>
-                        </div>
-
-                        <div class="card bg1 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-EricHsiao.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center darkO px-0">
-                                <h5 class="card-title focus">Eric Hsiao</h5>
-                                <div class="card-text my-1 fw-bold "><img loading="lazy" src="images/redspark.gif" width="36"><img loading="lazy" src="images/bearbrick.gif" width="48" height="auto"><img loading="lazy" src="images/redspark.gif" width="36">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card bg1 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-銀痕.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center darkO px-0">
-                                <h5 class="card-title focus">銀痕</h5>
-                                <div class="card-text my-1 fw-bold "><img loading="lazy" src="images/mai.gif" width="90">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card bg1 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-野口 ハヤシ.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center darkO px-0">
-                                <h5 class="card-title focus">Noguchi</h5>
-                                <div class="card-text my-1 fw-bold "><img loading="lazy" src="images/shizumaru.gif" width="90">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card bg1 col-lg-3 col-5 border-warning border-3 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-Sana.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center darkO px-0">
-                                <h5 class="card-title focus px-4">Sana</h5>
-                                <div class="card-text my-1 fw-bold "><img loading="lazy" src="images/xg.gif" width="100">
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="container mt-4 mb-5">
-                    <div class="d-flex justify-content-evenly align-items-end">
-                        <img loading="lazy" src="images/team-21.gif" width="150" height="auto">
-                        <h2 class="text-center font-monospace text-info">THE APEX</h2>
-                        <img loading="lazy" src="images/team-1.gif" width="150" height="auto">
-                    </div>
-                    <div class="row gap-1 justify-content-center">
-                        <div class="card bg2 col-lg-3 col-5 border-primary border-4 rounded-5 px-2 ">
-                            <img loading="lazy" src="images/player-xD3viLz.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center text-info px-0">
-                                <h5 class="card-title focus">xD3viLz</h5>
-                                <div class="card-text my-1"><img loading="lazy" src="images/devil.gif" width="60"></div>
-                                <div class="my-1">
-                                    <a href="https://www.youtube.com/@xD3viLz/videos" target="_blank"><img loading="lazy" src="images/youtube.png"></a>
-                                    <a href="https://www.twitch.tv/xd3vilzx_" target="_blank"><img loading="lazy" src="images/twitch.png" class="ms-1"></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="d-flex justify-content-evenly align-items-end">
-                    <img loading="lazy" src="images/team-rest.png" width="200" height="auto" class="rounded-3">
-                </div>
-                <div class="container mt-4 mb-5">
-                    <h2 class="text-center font-monospace align-items-end d-flex justify-content-center text-danger"><img loading="lazy" src="images/orangeredthunder.gif" width="48" height="auto">THE ASCENDANT<img loading="lazy" src="images/orangeredthunder.gif" width="48" height="auto"></h2>
-                    <div class="row gap-1 justify-content-center">
-
-                        <div class="card bg4 col-lg-3 col-5 border-danger border-4 rounded-5 px-2 ">
-                            <img loading="lazy" src="images/player-おやじ日本人.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center text-danger px-0">
-                                <h5 class="card-title focus">TheOmoti</h5>
-                                <div class="my-1"><img loading="lazy" src="images/duo-left.gif" width="50" height="55"></div>
-                                <div class="card-text text-danger fw-bold my-1">Dynamic Duo</div>
-                                <div class="my-1">
-                                    <a href="https://www.youtube.com/@nihonjinoyaji" target="_blank"><img loading="lazy" src="images/youtube.png"></a>
-                                    <a href="https://www.twitch.tv/ossankingdom" target="_blank"><img loading="lazy" src="images/twitch.png" class="ms-1"></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card bg4 col-lg-3 col-5 border-danger border-4 rounded-5 px-2 ">
-                            <img loading="lazy" src="images/player-BadOssan.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center text-danger px-0">
-                                <h5 class="card-title focus">Bad Ossan</h5>
-                                <div class="my-1"><img loading="lazy" src="images/duo-right.gif" width="60" height="55"></div>
-                                <div class="card-text fw-bold my-1 text-danger">Dynamic Duo</div>
-                                <div class="my-1">
-                                    <a href="https://www.youtube.com/@nihonjinoyaji" target="_blank"><img loading="lazy" src="images/youtube.png"></a>
-                                    <a href="https://www.twitch.tv/ossankingdom" target="_blank"><img loading="lazy" src="images/twitch.png" class="ms-1"></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card bg4 col-lg-3 col-5 border-danger border-4 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-玉米大战僵尸.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center text-danger px-0">
-                                <h5 class="card-title focus">玉米大战僵尸</h5>
-                                <div class="card-text my-1"><img loading="lazy" src="images/rocket.gif" width="48" height="auto"></div>
-                                <div class="my-1">
-                                    <a href="https://space.bilibili.com/1645853852" target="_blank"><img loading="lazy" src="images/bilibili.png"></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card bg4 col-lg-3 col-5 border-danger border-4 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-NH2-CH-COOH.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center text-danger px-0">
-                                <h5 class="card-title focus">NH2-CH-COOH </h5>
-                                <div class="card-text my-1"><img loading="lazy" src="images/siren.gif" width="32" height="32"></div>
-                                <div class="my-1">
-                                    <a href="https://space.bilibili.com/24823462" target="_blank"><img loading="lazy" src="images/bilibili.png"></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card bg4 col-lg-3 col-5 border-danger border-4 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-Siberia.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center text-danger px-0">
-                                <h5 class="card-title focus">SiberianPsych0</h5>
-                                <div class="my-1 text-warning fw-bold fst-italic">Tokyo Speedrun</div>
-                                <div class="card-text my-1"><img loading="lazy" src="images/player.gif" width="32" height="32"></div>
-                                <div class="my-1"><a href="https://www.youtube.com/@siberianpsych0" target="_blank"><img loading="lazy" src="images/youtube.png"></a></div>
-                            </div>
-                        </div>
-
-                        <div class="card bg4 col-lg-3 col-5 border-danger border-4 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-ssw.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center text-danger px-0">
-                                <h5 class="card-title focus">S SW</h5>
-                                <div class="my-1 text-warning fw-bold fst-italic">Tokyo Speedrun</div>
-                                <div class="card-text my-1"><img loading="lazy" src="images/blueorb.gif" width="30" height="auto"></div>
-
-                            </div>
-                        </div>
-                        <div class="card bg4 col-lg-3 col-5 border-danger border-4 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-Tina.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center text-danger px-0">
-                                <h5 class="card-title focus">ACE 𝔗𝔦𝔫𝔞</h5>
-                                <div class="my-1 text-warning fw-bold fst-italic">Tokyo Speedrun</div>
-                                <div class="my-1"><img loading="lazy" src="images/jumpR.gif" width="32" height="32"></div>
-                                <div class="card-text purple fw-bold my-1">Mew Dedicant</div>
-                            </div>
-                        </div>
-
-                        <div class="card bg4 col-lg-3 col-5 border-danger border-4 rounded-5 px-1 ">
-                            <img loading="lazy" src="images/player-Mewtaility.png" width="100px" height="100px" class="mx-auto my-2 rounded-pill pulse">
-                            <div class="card-body text-center text-danger px-0">
-                                <h5 class="card-title focus">Mewtality</h5>
-                                <div class="my-1 text-warning fw-bold fst-italic">Tokyo Speedrun</div>
-                                <div class="my-1"><img loading="lazy" src="images/jumpL.gif" width="32" height="32"></div>
-                                <div class="card-text purple fw-bold my-1">Tina Dedicant</div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="container my-5">
-                    <h2 class="text-center font-monospace admin-head"><img loading="lazy" src="images/purplefire.gif" width="32" height="auto">Contact<img loading="lazy" src="images/purplefire.gif" width="32" height="auto"></h2>
-                    <div class="row gap-1 justify-content-center">
-                        <div class="card bg5 col-lg-8 col-10 admin-border rounded-5 border-2 ">
-                            <img loading="lazy" src="images/admin.png" width="100px" height="100px" class="mx-auto my-2 rounded-circle pulse">
-                            <div class="card-body text-center px-0">
-                                <div class="card-text admin-name fw-bold my-1">Discord: capriceyuri</div>
-                                <div class="text-light font-monospace">Last Update: 12.29.23</div>
-                                <div class="text-warning font-monospace">Credits: Flaroh Illustration for Artworks</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- EPISODE NEW YORK -->
-        <div class="boxNY my-5">
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">New York <i class="bi bi-1-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/NY1.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="ny">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">New York <i class="bi bi-2-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/NY2.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="ny">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">New York <i class="bi bi-3-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/NY3.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="ny">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">New York <i class="bi bi-4-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/NY4.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="ny">
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <!-- EPISODE JERUSALEM -->
-        <div class="boxJ my-5">
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">JERUSALEM <i class="bi bi-1-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/j1.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="jer">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">JERUSALEM <i class="bi bi-2-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/j2.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="jer">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">JERUSALEM <i class="bi bi-3-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/j3.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="jer">
-                    </tbody>
-                </table>
-            </div>
-
-        </div>
-        <!-- EPISODE MOSCOW -->
-        <div class="boxMos my-5">
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">MOSCOW <i class="bi bi-1-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/moscow1.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="mos">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">MOSCOW <i class="bi bi-2-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/moscow2.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="mos">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">MOSCOW <i class="bi bi-3-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/moscow3.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="mos">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">MOSCOW <i class="bi bi-4-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/moscow4.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="mos">
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <!-- EPISODE TOKYO -->
-        <div class="boxT my-5">
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">TOKYO <i class="bi bi-1-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/t1.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="tokyo">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">TOKYO <i class="bi bi-2-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/t2.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="tokyo">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">TOKYO <i class="bi bi-3-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/t3.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="tokyo">
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <!-- EPISODE MARSEILLE -->
-        <div class="boxMar my-5">
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">MARSEILLE <i class="bi bi-1-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/m1.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="mar">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">MARSEILLE <i class="bi bi-2-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/m2.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="mar">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">MARSEILLE <i class="bi bi-3-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/m3.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="mar">
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <!-- EPISODE ROME -->
-        <div class="boxR my-5">
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">ROME <i class="bi bi-1-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/r1.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="rom">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">ROME <i class="bi bi-2-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/r2.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="rom">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">ROME <i class="bi bi-3-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/r3.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="rom">
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <!-- EPISODE KAMCHATKA -->
-        <div class="boxK my-5">
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">KAMCHATKA <i class="bi bi-1-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/k1.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="kam">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">KAMCHATKA <i class="bi bi-2-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/k2.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="kam">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">KAMCHATKA <i class="bi bi-3-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/k3.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="kam">
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <!-- EPISODE PHOENIX -->
-        <div class="boxP my-5">
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">PHOENIX <i class="bi bi-1-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/p1.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="pho">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">PHOENIX <i class="bi bi-2-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/p2.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="pho">
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-8 col-12 my-4 mx-auto">
-                <div>
-                    <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">PHOENIX <i class="bi bi-3-square ms-2"></i></div>
-                </div>
-                <table class="table rounded-5 table-dark table-borderless">
-                    <thead>
-                        <tr class="text-center align-middle">
-                            <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
-                                <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/p3.png"></div>
-                            </td>
-                        </tr>
-                        <tr class="text-center align-middle">
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Source</th>
-                        </tr>
-                    </thead>
-                    <tbody class="pho">
-                    </tbody>
-                </table>
-            </div>
         </div>
 
-        <div type="button" class="btn text-danger menu-btn" data-bs-toggle="modal" data-bs-target="#menu">
-            <i class="bi bi-dice-6 spin d-block"></i>
-        </div>
-
-
-        <div class="modal fade" id="menu" tabindex="-1" aria-labelledby="menuLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content border-warning border-4">
-                    <div class="modal-header text-bg-dark border-bottom-0">
-                        <h5 class="modal-title mx-auto font-monospace admin-color text-center" id="menuLabel">Hurry Up and Pick One<img loading="lazy" src="images/menu.gif" width="100" height="auto"></h5>
-                    </div>
-                    <div class="modal-body text-center text-bg-dark menu-links">
-                        <div class="my-2"><a href="https://capriceyuri.github.io/wwzAftermathPerks/" class="fw-semibold h4 link wobble">Class Perks</a></div>
-                        <div class="my-2"><a href="https://capriceyuri.github.io/wwzAftermathHorde/" class="fw-semibold h4 link wobble">Horde Ranking</a></div>
-                        <div class="my-2"><a href="https://capriceyuri.github.io/wwzAftermathExtreme/" class="fw-semibold h4 link wobble">Speedrun Ranking</a></div>
-                    </div>
-                </div>
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">New York <i class="bi bi-2-square ms-2"></i></div>
             </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/NY2.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="ny">
+                </tbody>
+            </table>
         </div>
 
-        <footer class="w-75 mx-auto py-3 mt-5 border-top border-warning">
-            <p class="text-center text-warning m-0">© 2024 CapriceYuri</p>
-        </footer>
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">New York <i class="bi bi-3-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/NY3.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="ny">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">New York <i class="bi bi-4-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/NY4.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="ny">
+                </tbody>
+            </table>
+        </div>
     </div>
+    <!-- EPISODE JERUSALEM -->
+    <div class="boxJ my-5">
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">JERUSALEM <i class="bi bi-1-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/j1.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="jer">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">JERUSALEM <i class="bi bi-2-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/j2.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="jer">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">JERUSALEM <i class="bi bi-3-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/j3.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="jer">
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <!-- EPISODE MOSCOW -->
+    <div class="boxMos my-5">
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">MOSCOW <i class="bi bi-1-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/moscow1.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="mos">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">MOSCOW <i class="bi bi-2-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/moscow2.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="mos">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">MOSCOW <i class="bi bi-3-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/moscow3.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="mos">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">MOSCOW <i class="bi bi-4-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/moscow4.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="mos">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- EPISODE TOKYO -->
+    <div class="boxT my-5">
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">TOKYO <i class="bi bi-1-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/t1.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="tokyo">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">TOKYO <i class="bi bi-2-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/t2.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="tokyo">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">TOKYO <i class="bi bi-3-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/t3.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="tokyo">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- EPISODE MARSEILLE -->
+    <div class="boxMar my-5">
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">MARSEILLE <i class="bi bi-1-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/m1.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="mar">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">MARSEILLE <i class="bi bi-2-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/m2.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="mar">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">MARSEILLE <i class="bi bi-3-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/m3.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="mar">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- EPISODE ROME -->
+    <div class="boxR my-5">
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">ROME <i class="bi bi-1-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/r1.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="rom">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">ROME <i class="bi bi-2-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/r2.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="rom">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">ROME <i class="bi bi-3-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/r3.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="rom">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- EPISODE KAMCHATKA -->
+    <div class="boxK my-5">
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">KAMCHATKA <i class="bi bi-1-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/k1.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="kam">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">KAMCHATKA <i class="bi bi-2-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/k2.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="kam">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">KAMCHATKA <i class="bi bi-3-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/k3.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="kam">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- EPISODE PHOENIX -->
+    <div class="boxP my-5">
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">PHOENIX <i class="bi bi-1-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/p1.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="pho">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">PHOENIX <i class="bi bi-2-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/p2.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="pho">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-8 col-12 my-4 mx-auto">
+            <div>
+                <div class="text-warning h2 d-flex justify-content-center align-items-center mb-0">PHOENIX <i class="bi bi-3-square ms-2"></i></div>
+            </div>
+            <table class="table rounded-5 table-dark table-borderless">
+                <thead>
+                    <tr class="text-center align-middle">
+                        <td colspan=4 class="table-img loading=" lazy" align-middle p-0">
+                            <div class="img loading=" lazy"-fluid"><img loading="lazy" class="table-img loading=" lazy"-target img loading="lazy" -fluid" src="images/p3.png"></div>
+                        </td>
+                    </tr>
+                    <tr class="text-center align-middle">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody class="pho">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div type="button" class="btn text-danger menu-btn" data-bs-toggle="modal" data-bs-target="#menu">
+        <i class="bi bi-dice-6 spin d-block"></i>
+    </div>
+
+
+    <div class="modal fade" id="menu" tabindex="-1" aria-labelledby="menuLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-warning border-4">
+                <div class="modal-header text-bg-dark border-bottom-0">
+                    <h5 class="modal-title mx-auto font-monospace admin-color text-center" id="menuLabel">Hurry Up and Pick One<img loading="lazy" src="images/menu.gif" width="100" height="auto"></h5>
+                </div>
+                <div class="modal-body text-center text-bg-dark menu-links">
+                    <div class="my-2"><a href="https://capriceyuri.github.io/wwzAftermathPerks/" class="fw-semibold h4 link wobble">Class Perks</a></div>
+                    <div class="my-2"><a href="https://capriceyuri.github.io/wwzAftermathHorde/" class="fw-semibold h4 link wobble">Horde Ranking</a></div>
+                    <div class="my-2"><a href="https://capriceyuri.github.io/wwzAftermathExtreme/" class="fw-semibold h4 link wobble">Speedrun Ranking</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="w-75 mx-auto py-3 mt-5 border-top border-warning">
+        <p class="text-center text-warning m-0">© 2024 CapriceYuri</p>
+    </footer>
 </body>
 
 </html>
