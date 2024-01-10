@@ -2,6 +2,31 @@
   transition: 500ms linear;
 }
 
+.cover-wrap {
+  position: absolute;
+  background: url("../images/cover.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+}
+
+.cover-title {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  opacity: 50%;
+  z-index: 99;
+  cursor: pointer;
+}
+
+#page {
+  display: none;
+}
+
 body {
   background-color: #1e1e1e;
 }
@@ -206,6 +231,18 @@ a {
   animation: rotate-center 4s linear infinite both;
 }
 
+.escape {
+  animation: fade-out 1s ease-out both;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 @keyframes rotate-center {
   0% {
     transform: rotate(0);
