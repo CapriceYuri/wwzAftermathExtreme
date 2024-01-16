@@ -49,7 +49,7 @@ const tok2_data = [
         team: 'solo'
     },
     {
-        player: 'cathybear',
+        player: 'TW.HK.MY',
         time: 547,
         src: 'https://www.youtube.com/watch?v=2UJ71_mbwSI',
         member: ['cathybear', 'ABA', '雷包VS新手', 'JK'],
