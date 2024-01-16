@@ -13,13 +13,13 @@ const pho1_data = [
         src: 'https://www.bilibili.com/video/BV1Jj411s7CX/?spm_id_from=333.337',
         team: 'solo'
     },
-    // {
-    //     player: 'おやじ日本人',
-    //     time: 658,
-    //     src: 'https://www.twitch.tv/videos/2016883830',
-    //     member: ['おやじ日本人', 'BadOssan'],
-    //     comp: ['V', 'V'],
-    // }
+    {
+        player: 'TW.HK.MY',
+        time: 663,
+        src: 'https://www.youtube.com/watch?v=J53TRwUXLoc',
+        member: ['ABA', 'KSY', 'cathybear', 'JK'],
+        date: '1/16/2024'
+    },
 ]
 
 const pho2_data = [
@@ -37,6 +37,13 @@ const pho2_data = [
         member: ['xD3viLz', 'bot', 'bot', 'bot'],
         comp: ['D', 'D', 'G', 'G'],
         date: '12/28/2023'
+    },
+    {
+        player: 'TW.HK.MY',
+        time: 881,
+        src: 'https://www.youtube.com/watch?v=5_JIgZRPGLg',
+        member: ['ABA', 'KSY', 'cathybear', 'Sana'],
+        date: '1/16/2024'
     },
 ]
 
