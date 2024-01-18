@@ -63,6 +63,13 @@ const pho3_data = [
         comp: ['D', 'D', 'G', 'G'],
         date: '12/28/2023'
     },
+    {
+        player: 'TW.HK.MY',
+        time: 985,
+        src: 'https://www.youtube.com/watch?v=gheda9yS4b8&t=2s',
+        member: ['ABA', 'JK', '楊楊', '邦邦'],
+        date: '1/18/2024'
+    },
 ]
 
 
