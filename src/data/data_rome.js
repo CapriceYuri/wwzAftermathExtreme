@@ -14,6 +14,13 @@ const rom1_data = [
         comp: ['D', 'D', 'G', 'H'],
         date: '4/24/2023'
     },
+    {
+        player: 'TW.HK.MY',
+        time: 630,
+        src: 'https://www.youtube.com/watch?v=5x1PXkJIeEo',
+        member: ['ABA', 'JK', '邦邦', 'cathybear'],
+        date: '1/19/2024'
+    },
 ]
 
 const rom2_data = [
@@ -31,6 +38,13 @@ const rom2_data = [
         member: ['xD3viLz', 'bot', 'bot', 'bot'],
         comp: ['D', 'D', 'G', 'H'],
         date: '4/24/2023'
+    },
+    {
+        player: 'TW.HK.MY',
+        time: 787,
+        src: 'https://www.youtube.com/watch?v=J18oYE6TNEo',
+        member: ['ABA', 'JK', '邦邦', 'cathybear'],
+        date: '1/19/2024'
     },
 ]
 
@@ -50,7 +64,13 @@ const rom3_data = [
         comp: ['D', 'D', 'G', 'H'],
         date: '4/24/2023'
     },
-
+    {
+        player: 'TW.HK.MY',
+        time: 563,
+        src: 'https://www.youtube.com/watch?v=hRVbsIAEx-s',
+        member: ['ABA', 'JK', '邦邦', 'cathybear'],
+        date: '1/19/2024'
+    },
 ]
 
 export { rom1_data, rom2_data, rom3_data }

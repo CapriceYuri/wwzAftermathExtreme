@@ -53,7 +53,6 @@ const tok2_data = [
         time: 547,
         src: 'https://www.youtube.com/watch?v=2UJ71_mbwSI',
         member: ['cathybear', 'ABA', '雷包VS新手', 'JK'],
-        comp: ['M', 'M', 'D', 'D'],
         date: '6/30/2023'
     },
 ]
