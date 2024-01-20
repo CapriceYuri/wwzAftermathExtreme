@@ -21,6 +21,13 @@ const rom1_data = [
         member: ['ABA', 'JK', '邦邦', 'cathybear'],
         date: '1/19/2024'
     },
+    {
+        player: 'おやじ日本人',
+        time: 620,
+        src: 'https://www.twitch.tv/videos/2033048690',
+        member: ['おやじ日本人', 'BadOssan'],
+        date: '1/13/2024'
+    },
 ]
 
 const rom2_data = [

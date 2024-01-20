@@ -62,6 +62,13 @@ const mar3_data = [
         member: ['ABA', '楊楊', '銀痕', 'Sana'],
         date: '1/9/2024'
     },
+    {
+        player: 'おやじ日本人',
+        time: 545,
+        src: 'https://www.twitch.tv/videos/2033060222',
+        member: ['おやじ日本人', 'BadOssan'],
+        date: '1/7/2024'
+    },
 ]
 
 export { mar1_data, mar2_data, mar3_data }
