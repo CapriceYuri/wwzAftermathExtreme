@@ -10,7 +10,6 @@ const tok1_data = [
         time: 611,
         src: 'https://www.youtube.com/watch?v=AiV7wZiSWa0&t=1055s',
         member: ['Siberia', 'ssw', 'Mewtaility', 'Tina'],
-        comp: ['G', 'E', 'F', 'D'],
         date: '6/30/2023'
     },
     {
@@ -24,7 +23,6 @@ const tok1_data = [
         time: 614,
         src: 'https://www.youtube.com/watch?v=2UJ71_mbwSI',
         member: ['cathybear', 'JK', 'ABA-180MM', '雷包VS新手'],
-        comp: ['G', 'F', 'E', 'G'],
     },
     {
         player: 'おやじ日本人',
