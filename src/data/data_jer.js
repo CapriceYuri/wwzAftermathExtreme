@@ -22,7 +22,6 @@ const jer2_data = [
         time: 412,
         src: 'https://www.youtube.com/watch?v=yY1kgIB0tPA',
         member: ['xD3viLz', 'bot', 'bot', 'bot'],
-        comp: ['H', 'E', 'D', 'D'],
         date: '4/4/2023'
     },
     {
@@ -36,7 +35,13 @@ const jer2_data = [
         time: 421,
         src: 'https://www.youtube.com/watch?v=FdK-nOuHjBI',
         member: ['ABA', '楊楊', '龍蝦', '原神高手魚片'],
-        comp: ['D', 'D', 'V', 'H'],
+    },
+    {
+        player: 'おやじ日本人',
+        time: 431,
+        src: 'https://www.twitch.tv/videos/2038823215',
+        member: ['おやじ日本人', 'BadOssan'],
+        date: '1/18/2024'
     },
 ]
 

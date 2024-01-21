@@ -20,6 +20,13 @@ const pho1_data = [
         member: ['ABA', 'KSY', 'cathybear', 'JK'],
         date: '1/16/2024'
     },
+    {
+        player: 'おやじ日本人',
+        time: 637,
+        src: 'https://www.twitch.tv/videos/2038839277',
+        member: ['おやじ日本人', 'BadOssan'],
+        date: '1/20/2024'
+    },
 ]
 
 const pho2_data = [

@@ -32,6 +32,13 @@ const mos2_data = [
         comp: ['V', 'D', 'D', 'H'],
         date: '1/4/2024'
     },
+    {
+        player: 'おやじ日本人',
+        time: 555,
+        src: 'https://www.twitch.tv/videos/2038827388',
+        member: ['おやじ日本人', 'BadOssan'],
+        date: '1/20/2024'
+    },
 ]
 
 const mos3_data = [
