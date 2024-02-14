@@ -78,6 +78,13 @@ const ny4_data = [
         comp: ['M'],
         date: '12/26/2023'
     },
+    {
+        player: 'おやじ日本人',
+        time: 515,
+        src: 'https://www.twitch.tv/videos/2061387964',
+        member: ['おやじ日本人', 'BadOssan'],
+        date: '2/13/2024'
+    },
 ]
 
 export { ny1_data, ny2_data, ny3_data, ny4_data }

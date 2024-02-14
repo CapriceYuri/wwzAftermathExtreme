@@ -32,10 +32,10 @@ const mar2_data = [
     },
     {
         player: 'おやじ日本人',
-        time: 359,
-        src: 'https://www.youtube.com/watch?v=wMGWbrH_SME&t=3s',
+        time: 349,
+        src: 'https://www.twitch.tv/videos/2061381020',
         member: ['おやじ日本人', 'BadOssan'],
-        date: '8/13/2023'
+        date: '2/12/2024'
     },
     {
         player: 'TW.HK.MY',
@@ -64,10 +64,10 @@ const mar3_data = [
     },
     {
         player: 'おやじ日本人',
-        time: 545,
-        src: 'https://www.twitch.tv/videos/2033060222',
+        time: 533,
+        src: 'https://www.twitch.tv/videos/2061391392',
         member: ['おやじ日本人', 'BadOssan'],
-        date: '1/7/2024'
+        date: '2/13/2024'
     },
 ]
 

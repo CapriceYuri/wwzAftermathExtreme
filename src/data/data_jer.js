@@ -14,6 +14,13 @@ const jer1_data = [
         comp: ['D', 'F', 'V', 'D'],
         date: '1/4/2024'
     },
+    {
+        player: 'おやじ日本人',
+        time: 702,
+        src: 'https://www.twitch.tv/videos/2061389903',
+        member: ['おやじ日本人', 'BadOssan'],
+        date: '2/13/2024'
+    },
 ]
 
 const jer2_data = [

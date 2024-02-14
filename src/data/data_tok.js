@@ -60,6 +60,13 @@ const tok2_data = [
         member: ['cathybear', 'ABA', '雷包VS新手', 'JK'],
         date: '6/30/2023'
     },
+    {
+        player: 'おやじ日本人',
+        time: 545,
+        src: 'https://www.twitch.tv/videos/2061379997',
+        member: ['おやじ日本人', 'BadOssan'],
+        date: '2/12/2024'
+    },
 ]
 
 const tok3_data = [

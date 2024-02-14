@@ -23,10 +23,10 @@ const rom1_data = [
     },
     {
         player: 'おやじ日本人',
-        time: 620,
-        src: 'https://www.twitch.tv/videos/2033048690',
+        time: 583,
+        src: 'https://www.twitch.tv/videos/2061393817',
         member: ['おやじ日本人', 'BadOssan'],
-        date: '1/13/2024'
+        date: '2/13/2024'
     },
 ]
 
