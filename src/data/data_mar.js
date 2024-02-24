@@ -50,7 +50,7 @@ const mar3_data = [
     {
         player: '玉米大战僵尸',
         time: 739,
-        src: 'https://www.bilibili.com/video/BV1fF411d7Vz/?spm_id_from=333.788',
+        src: 'https://www.bilibili.com/video/BV1Bm4y1E7hZ/',
         team: 'solo',
         comp: ['D'],
         date: '6/30/2023'
